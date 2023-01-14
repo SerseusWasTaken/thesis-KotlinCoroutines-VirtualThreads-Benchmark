@@ -1,0 +1,3769 @@
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testFileIO
+# Parameters: (levelOfConcurrency = 1)
+
+# Run progress: 0,00% complete, ETA 01:23:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 19651,710 ops/s
+# Warmup Iteration   2: 20327,987 ops/s
+# Warmup Iteration   3: 20178,825 ops/s
+# Warmup Iteration   4: 20379,882 ops/s
+# Warmup Iteration   5: 20344,213 ops/s
+Iteration   1: 20291,836 ops/s
+                 ·compiler.time.profiled: 2,000 ms
+                 ·compiler.time.total:    1259,000 ms
+                 ·gc.alloc.rate:          4872,636 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               229,000 counts
+                 ·gc.time:                69,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 20309,680 ops/s
+                 ·compiler.time.profiled: 29,000 ms
+                 ·compiler.time.total:    1289,000 ms
+                 ·gc.alloc.rate:          4876,903 MB/sec
+                 ·gc.alloc.rate.norm:     251800,005 B/op
+                 ·gc.count:               229,000 counts
+                 ·gc.time:                70,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 20316,560 ops/s
+                 ·compiler.time.profiled: 3,000 ms
+                 ·compiler.time.total:    1292,000 ms
+                 ·gc.alloc.rate:          4878,487 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               229,000 counts
+                 ·gc.time:                68,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 20154,435 ops/s
+                 ·compiler.time.profiled: 2,000 ms
+                 ·compiler.time.total:    1295,000 ms
+                 ·gc.alloc.rate:          4839,607 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               227,000 counts
+                 ·gc.time:                69,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 20317,177 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    1299,000 ms
+                 ·gc.alloc.rate:          4878,647 MB/sec
+                 ·gc.alloc.rate.norm:     251800,015 B/op
+                 ·gc.count:               229,000 counts
+                 ·gc.time:                69,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 2,00% complete, ETA 01:26:15
+# Fork: 2 of 5
+# Warmup Iteration   1: 19686,165 ops/s
+# Warmup Iteration   2: 20262,052 ops/s
+# Warmup Iteration   3: 20241,798 ops/s
+# Warmup Iteration   4: 20360,910 ops/s
+# Warmup Iteration   5: 20309,542 ops/s
+Iteration   1: 20286,765 ops/s
+                 ·compiler.time.profiled: 5,000 ms
+                 ·compiler.time.total:    1335,000 ms
+                 ·gc.alloc.rate:          4871,331 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 20279,154 ops/s
+                 ·compiler.time.profiled: 40,000 ms
+                 ·compiler.time.total:    1376,000 ms
+                 ·gc.alloc.rate:          4869,519 MB/sec
+                 ·gc.alloc.rate.norm:     251800,005 B/op
+                 ·gc.count:               275,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 20261,781 ops/s
+                 ·compiler.time.profiled: 7,000 ms
+                 ·compiler.time.total:    1383,000 ms
+                 ·gc.alloc.rate:          4865,390 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 20251,373 ops/s
+                 ·compiler.time.profiled: 6,000 ms
+                 ·compiler.time.total:    1389,000 ms
+                 ·gc.alloc.rate:          4862,888 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               275,000 counts
+                 ·gc.time:                73,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 20246,197 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    1394,000 ms
+                 ·gc.alloc.rate:          4861,604 MB/sec
+                 ·gc.alloc.rate.norm:     251800,015 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 4,00% complete, ETA 01:24:29
+# Fork: 3 of 5
+# Warmup Iteration   1: 19634,859 ops/s
+# Warmup Iteration   2: 20215,607 ops/s
+# Warmup Iteration   3: 20204,593 ops/s
+# Warmup Iteration   4: 20221,325 ops/s
+# Warmup Iteration   5: 20302,229 ops/s
+Iteration   1: 20264,759 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    1257,000 ms
+                 ·gc.alloc.rate:          4866,093 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               228,000 counts
+                 ·gc.time:                69,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 20230,977 ops/s
+                 ·compiler.time.profiled: 45,000 ms
+                 ·compiler.time.total:    1302,000 ms
+                 ·gc.alloc.rate:          4857,823 MB/sec
+                 ·gc.alloc.rate.norm:     251800,005 B/op
+                 ·gc.count:               228,000 counts
+                 ·gc.time:                69,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 20258,256 ops/s
+                 ·compiler.time.profiled: 2,000 ms
+                 ·compiler.time.total:    1304,000 ms
+                 ·gc.alloc.rate:          4864,524 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               228,000 counts
+                 ·gc.time:                67,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 20146,654 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    1304,000 ms
+                 ·gc.alloc.rate:          4837,769 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               227,000 counts
+                 ·gc.time:                68,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 20290,112 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    1309,000 ms
+                 ·gc.alloc.rate:          4872,071 MB/sec
+                 ·gc.alloc.rate.norm:     251800,015 B/op
+                 ·gc.count:               229,000 counts
+                 ·gc.time:                69,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 6,00% complete, ETA 01:22:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 19659,835 ops/s
+# Warmup Iteration   2: 20190,607 ops/s
+# Warmup Iteration   3: 20325,332 ops/s
+# Warmup Iteration   4: 20198,514 ops/s
+# Warmup Iteration   5: 20293,508 ops/s
+Iteration   1: 20237,260 ops/s
+                 ·compiler.time.profiled: 2,000 ms
+                 ·compiler.time.total:    1339,000 ms
+                 ·gc.alloc.rate:          4859,521 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 20358,071 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    1341,000 ms
+                 ·gc.alloc.rate:          4888,537 MB/sec
+                 ·gc.alloc.rate.norm:     251800,005 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                74,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 20264,106 ops/s
+                 ·compiler.time.profiled: 41,000 ms
+                 ·compiler.time.total:    1382,000 ms
+                 ·gc.alloc.rate:          4865,930 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 20229,428 ops/s
+                 ·compiler.time.profiled: 3,000 ms
+                 ·compiler.time.total:    1385,000 ms
+                 ·gc.alloc.rate:          4857,651 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 20211,802 ops/s
+                 ·compiler.time.profiled: 5,000 ms
+                 ·compiler.time.total:    1391,000 ms
+                 ·gc.alloc.rate:          4853,336 MB/sec
+                 ·gc.alloc.rate.norm:     251800,015 B/op
+                 ·gc.count:               275,000 counts
+                 ·gc.time:                74,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 8,00% complete, ETA 01:21:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 19561,031 ops/s
+# Warmup Iteration   2: 20191,463 ops/s
+# Warmup Iteration   3: 20096,222 ops/s
+# Warmup Iteration   4: 20212,515 ops/s
+# Warmup Iteration   5: 20240,553 ops/s
+Iteration   1: 20329,122 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    1357,000 ms
+                 ·gc.alloc.rate:          4881,520 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               277,000 counts
+                 ·gc.time:                77,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 20278,914 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    1360,000 ms
+                 ·gc.alloc.rate:          4869,477 MB/sec
+                 ·gc.alloc.rate.norm:     251800,005 B/op
+                 ·gc.count:               276,000 counts
+                 ·gc.time:                74,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 20131,451 ops/s
+                 ·compiler.time.profiled: 43,000 ms
+                 ·compiler.time.total:    1404,000 ms
+                 ·gc.alloc.rate:          4833,854 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               274,000 counts
+                 ·gc.time:                76,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 20190,581 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    1405,000 ms
+                 ·gc.alloc.rate:          4848,223 MB/sec
+                 ·gc.alloc.rate.norm:     251800,004 B/op
+                 ·gc.count:               275,000 counts
+                 ·gc.time:                75,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 20176,635 ops/s
+                 ·compiler.time.profiled: 10,000 ms
+                 ·compiler.time.total:    1415,000 ms
+                 ·gc.alloc.rate:          4844,886 MB/sec
+                 ·gc.alloc.rate.norm:     251800,015 B/op
+                 ·gc.count:               274,000 counts
+                 ·gc.time:                74,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testFileIO":
+  20252,523 ±(99.9%) 43,921 ops/s [Average]
+  (min, avg, max) = (20131,451, 20252,523, 20358,071), stdev = 58,633
+  CI (99.9%): [20208,602, 20296,444] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.profiled":
+  262,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 10,480, 45,000), stdev = 15,237
+  CI (99.9%): [262,000, 262,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.total":
+  1415,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (1257,000, 1342,640, 1415,000), stdev = 48,476
+  CI (99.9%): [1415,000, 1415,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate":
+  4863,129 ±(99.9%) 10,561 MB/sec [Average]
+  (min, avg, max) = (4833,854, 4863,129, 4888,537), stdev = 14,099
+  CI (99.9%): [4852,568, 4873,690] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm":
+  251800,006 ±(99.9%) 0,003 B/op [Average]
+  (min, avg, max) = (251800,004, 251800,006, 251800,015), stdev = 0,004
+  CI (99.9%): [251800,003, 251800,010] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.count":
+  6416,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (227,000, 256,640, 277,000), stdev = 23,631
+  CI (99.9%): [6416,000, 6416,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.time":
+  1809,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (67,000, 72,360, 77,000), stdev = 3,174
+  CI (99.9%): [1809,000, 1809,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 70,2%         TIMED_WAITING
+ 29,8%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 70,2% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  9,8%  32,9% <stack is empty, everything is filtered?>
+  9,8%  32,9% sun.nio.ch.KQueue.poll
+  3,2%  10,8% java.lang.Thread.yield0
+  2,4%   8,2% sun.nio.ch.FileDispatcherImpl.pread0
+  1,2%   4,0% jdk.internal.misc.Unsafe.unpark
+  0,9%   3,1% sun.nio.ch.IOUtil.read
+  0,6%   1,9% sun.nio.fs.UnixNativeDispatcher.open0
+  0,5%   1,8% java.nio.HeapByteBuffer.<init>
+  0,2%   0,8% java.io.FileDescriptor.close0
+  0,2%   0,8% jdk.internal.misc.Unsafe.park
+  0,8%   2,8% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testFileIO
+# Parameters: (levelOfConcurrency = 10)
+
+# Run progress: 10,00% complete, ETA 01:19:15
+# Fork: 1 of 5
+# Warmup Iteration   1: 4329,720 ops/s
+# Warmup Iteration   2: 4501,865 ops/s
+# Warmup Iteration   3: 4576,958 ops/s
+# Warmup Iteration   4: 4602,293 ops/s
+# Warmup Iteration   5: 4615,262 ops/s
+Iteration   1: 4629,447 ops/s
+                 ·compiler.time.profiled: 25,000 ms
+                 ·compiler.time.total:    2363,000 ms
+                 ·gc.alloc.rate:          11092,167 MB/sec
+                 ·gc.alloc.rate.norm:     2512510,021 B/op
+                 ·gc.count:               359,000 counts
+                 ·gc.time:                148,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 4609,588 ops/s
+                 ·compiler.time.profiled: 146,000 ms
+                 ·compiler.time.total:    2510,000 ms
+                 ·gc.alloc.rate:          11044,406 MB/sec
+                 ·gc.alloc.rate.norm:     2512503,322 B/op
+                 ·gc.count:               357,000 counts
+                 ·gc.time:                146,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 4551,519 ops/s
+                 ·compiler.time.profiled: 36,000 ms
+                 ·compiler.time.total:    2547,000 ms
+                 ·gc.alloc.rate:          10905,608 MB/sec
+                 ·gc.alloc.rate.norm:     2512498,475 B/op
+                 ·gc.count:               352,000 counts
+                 ·gc.time:                146,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 4633,082 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    2548,000 ms
+                 ·gc.alloc.rate:          11101,005 MB/sec
+                 ·gc.alloc.rate.norm:     2512510,043 B/op
+                 ·gc.count:               359,000 counts
+                 ·gc.time:                147,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 4653,182 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    2548,000 ms
+                 ·gc.alloc.rate:          11149,067 MB/sec
+                 ·gc.alloc.rate.norm:     2512524,193 B/op
+                 ·gc.count:               360,000 counts
+                 ·gc.time:                146,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 12,00% complete, ETA 01:17:30
+# Fork: 2 of 5
+# Warmup Iteration   1: 4360,028 ops/s
+# Warmup Iteration   2: 4576,476 ops/s
+# Warmup Iteration   3: 4650,333 ops/s
+# Warmup Iteration   4: 4642,223 ops/s
+# Warmup Iteration   5: 4668,240 ops/s
+Iteration   1: 4671,756 ops/s
+                 ·compiler.time.profiled: 23,000 ms
+                 ·compiler.time.total:    2751,000 ms
+                 ·gc.alloc.rate:          11192,519 MB/sec
+                 ·gc.alloc.rate.norm:     2512281,461 B/op
+                 ·gc.count:               357,000 counts
+                 ·gc.time:                145,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 4671,191 ops/s
+                 ·compiler.time.profiled: 125,000 ms
+                 ·compiler.time.total:    2878,000 ms
+                 ·gc.alloc.rate:          11191,287 MB/sec
+                 ·gc.alloc.rate.norm:     2512273,693 B/op
+                 ·gc.count:               357,000 counts
+                 ·gc.time:                142,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 4656,455 ops/s
+                 ·compiler.time.profiled: 14,000 ms
+                 ·compiler.time.total:    2893,000 ms
+                 ·gc.alloc.rate:          11155,769 MB/sec
+                 ·gc.alloc.rate.norm:     2512276,417 B/op
+                 ·gc.count:               357,000 counts
+                 ·gc.time:                144,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 4687,776 ops/s
+                 ·compiler.time.profiled: 8,000 ms
+                 ·compiler.time.total:    2901,000 ms
+                 ·gc.alloc.rate:          11231,155 MB/sec
+                 ·gc.alloc.rate.norm:     2512288,812 B/op
+                 ·gc.count:               358,000 counts
+                 ·gc.time:                143,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 4649,266 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    2901,000 ms
+                 ·gc.alloc.rate:          11138,545 MB/sec
+                 ·gc.alloc.rate.norm:     2512283,187 B/op
+                 ·gc.count:               356,000 counts
+                 ·gc.time:                144,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 14,00% complete, ETA 01:15:45
+# Fork: 3 of 5
+# Warmup Iteration   1: 4404,235 ops/s
+# Warmup Iteration   2: 4629,755 ops/s
+# Warmup Iteration   3: 4660,178 ops/s
+# Warmup Iteration   4: 4603,211 ops/s
+# Warmup Iteration   5: 4626,343 ops/s
+Iteration   1: 4637,939 ops/s
+                 ·compiler.time.profiled: 29,000 ms
+                 ·compiler.time.total:    2439,000 ms
+                 ·gc.alloc.rate:          11112,626 MB/sec
+                 ·gc.alloc.rate.norm:     2512519,384 B/op
+                 ·gc.count:               359,000 counts
+                 ·gc.time:                147,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 4607,417 ops/s
+                 ·compiler.time.profiled: 151,000 ms
+                 ·compiler.time.total:    2591,000 ms
+                 ·gc.alloc.rate:          11039,371 MB/sec
+                 ·gc.alloc.rate.norm:     2512503,426 B/op
+                 ·gc.count:               356,000 counts
+                 ·gc.time:                147,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 4569,772 ops/s
+                 ·compiler.time.profiled: 64,000 ms
+                 ·compiler.time.total:    2655,000 ms
+                 ·gc.alloc.rate:          10948,926 MB/sec
+                 ·gc.alloc.rate.norm:     2512408,798 B/op
+                 ·gc.count:               354,000 counts
+                 ·gc.time:                147,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 4548,458 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    2655,000 ms
+                 ·gc.alloc.rate:          10897,655 MB/sec
+                 ·gc.alloc.rate.norm:     2512403,455 B/op
+                 ·gc.count:               353,000 counts
+                 ·gc.time:                146,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 4570,422 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    2657,000 ms
+                 ·gc.alloc.rate:          10950,286 MB/sec
+                 ·gc.alloc.rate.norm:     2512404,499 B/op
+                 ·gc.count:               354,000 counts
+                 ·gc.time:                144,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 16,00% complete, ETA 01:13:59
+# Fork: 4 of 5
+# Warmup Iteration   1: 4368,030 ops/s
+# Warmup Iteration   2: 4580,258 ops/s
+# Warmup Iteration   3: 4600,182 ops/s
+# Warmup Iteration   4: 4594,206 ops/s
+# Warmup Iteration   5: 4596,591 ops/s
+Iteration   1: 4607,570 ops/s
+                 ·compiler.time.profiled: 25,000 ms
+                 ·compiler.time.total:    2178,000 ms
+                 ·gc.alloc.rate:          11038,998 MB/sec
+                 ·gc.alloc.rate.norm:     2512367,431 B/op
+                 ·gc.count:               346,000 counts
+                 ·gc.time:                144,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 4606,944 ops/s
+                 ·compiler.time.profiled: 106,000 ms
+                 ·compiler.time.total:    2285,000 ms
+                 ·gc.alloc.rate:          11037,783 MB/sec
+                 ·gc.alloc.rate.norm:     2512364,994 B/op
+                 ·gc.count:               346,000 counts
+                 ·gc.time:                144,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 4637,738 ops/s
+                 ·compiler.time.profiled: 128,000 ms
+                 ·compiler.time.total:    2414,000 ms
+                 ·gc.alloc.rate:          11111,934 MB/sec
+                 ·gc.alloc.rate.norm:     2512442,288 B/op
+                 ·gc.count:               348,000 counts
+                 ·gc.time:                146,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 4654,996 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    2423,000 ms
+                 ·gc.alloc.rate:          11153,341 MB/sec
+                 ·gc.alloc.rate.norm:     2512452,002 B/op
+                 ·gc.count:               350,000 counts
+                 ·gc.time:                145,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 4606,018 ops/s
+                 ·compiler.time.profiled: 14,000 ms
+                 ·compiler.time.total:    2437,000 ms
+                 ·gc.alloc.rate:          11035,685 MB/sec
+                 ·gc.alloc.rate.norm:     2512436,490 B/op
+                 ·gc.count:               346,000 counts
+                 ·gc.time:                144,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 18,00% complete, ETA 01:12:13
+# Fork: 5 of 5
+# Warmup Iteration   1: 4355,681 ops/s
+# Warmup Iteration   2: 4584,274 ops/s
+# Warmup Iteration   3: 4601,952 ops/s
+# Warmup Iteration   4: 4596,101 ops/s
+# Warmup Iteration   5: 4594,005 ops/s
+Iteration   1: 4606,818 ops/s
+                 ·compiler.time.profiled: 50,000 ms
+                 ·compiler.time.total:    2621,000 ms
+                 ·gc.alloc.rate:          11037,877 MB/sec
+                 ·gc.alloc.rate.norm:     2512438,413 B/op
+                 ·gc.count:               341,000 counts
+                 ·gc.time:                141,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 4589,804 ops/s
+                 ·compiler.time.profiled: 209,000 ms
+                 ·compiler.time.total:    2832,000 ms
+                 ·gc.alloc.rate:          10997,028 MB/sec
+                 ·gc.alloc.rate.norm:     2512434,009 B/op
+                 ·gc.count:               341,000 counts
+                 ·gc.time:                141,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 4584,569 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    2841,000 ms
+                 ·gc.alloc.rate:          10984,375 MB/sec
+                 ·gc.alloc.rate.norm:     2512434,869 B/op
+                 ·gc.count:               340,000 counts
+                 ·gc.time:                139,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 4592,033 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    2845,000 ms
+                 ·gc.alloc.rate:          11002,441 MB/sec
+                 ·gc.alloc.rate.norm:     2512435,659 B/op
+                 ·gc.count:               341,000 counts
+                 ·gc.time:                139,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 4587,440 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    2846,000 ms
+                 ·gc.alloc.rate:          10991,147 MB/sec
+                 ·gc.alloc.rate.norm:     2512433,967 B/op
+                 ·gc.count:               341,000 counts
+                 ·gc.time:                141,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testFileIO":
+  4616,848 ±(99.9%) 28,529 ops/s [Average]
+  (min, avg, max) = (4548,458, 4616,848, 4687,776), stdev = 38,085
+  CI (99.9%): [4588,319, 4645,377] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.profiled":
+  1177,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 47,080, 209,000), stdev = 60,131
+  CI (99.9%): [1177,000, 1177,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.total":
+  2901,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (2178,000, 2622,360, 2901,000), stdev = 210,665
+  CI (99.9%): [2901,000, 2901,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate":
+  11061,640 ±(99.9%) 68,242 MB/sec [Average]
+  (min, avg, max) = (10897,655, 11061,640, 11231,155), stdev = 91,101
+  CI (99.9%): [10993,398, 11129,882] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm":
+  2512417,172 ±(99.9%) 61,802 B/op [Average]
+  (min, avg, max) = (2512273,693, 2512417,172, 2512524,193), stdev = 82,504
+  CI (99.9%): [2512355,370, 2512478,975] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.count":
+  8788,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (340,000, 351,520, 360,000), stdev = 6,887
+  CI (99.9%): [8788,000, 8788,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.time":
+  3606,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (139,000, 144,240, 148,000), stdev = 2,538
+  CI (99.9%): [3606,000, 3606,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 74,9%         TIMED_WAITING
+ 25,1%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 74,9% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  8,3%  33,1% sun.nio.ch.FileDispatcherImpl.pread0
+  4,4%  17,6% <stack is empty, everything is filtered?>
+  4,4%  17,6% sun.nio.ch.KQueue.poll
+  2,4%   9,7% sun.nio.ch.SimpleAsynchronousFileChannelImpl$2.run
+  1,6%   6,3% jdk.internal.misc.Unsafe.unpark
+  1,1%   4,2% kotlinx.coroutines.scheduling.CoroutineScheduler.tryUnpark
+  0,8%   3,1% sun.nio.ch.IOUtil.read
+  0,6%   2,3% java.io.FileDescriptor.close0
+  0,3%   1,3% sun.nio.fs.UnixNativeDispatcher.open0
+  0,2%   0,9% kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker
+  1,0%   3,9% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testFileIO
+# Parameters: (levelOfConcurrency = 100)
+
+# Run progress: 20,00% complete, ETA 01:10:27
+# Fork: 1 of 5
+# Warmup Iteration   1: 317,120 ops/s
+# Warmup Iteration   2: 338,503 ops/s
+# Warmup Iteration   3: 327,864 ops/s
+# Warmup Iteration   4: 350,004 ops/s
+# Warmup Iteration   5: 338,596 ops/s
+Iteration   1: 354,040 ops/s
+                 ·compiler.time.profiled: 2,000 ms
+                 ·compiler.time.total:    3933,000 ms
+                 ·gc.alloc.rate:          8478,944 MB/sec
+                 ·gc.alloc.rate.norm:     25114011,971 B/op
+                 ·gc.count:               154,000 counts
+                 ·gc.time:                189,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 331,105 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    3935,000 ms
+                 ·gc.alloc.rate:          7929,566 MB/sec
+                 ·gc.alloc.rate.norm:     25113682,911 B/op
+                 ·gc.count:               145,000 counts
+                 ·gc.time:                170,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 338,350 ops/s
+                 ·compiler.time.profiled: 102,000 ms
+                 ·compiler.time.total:    4037,000 ms
+                 ·gc.alloc.rate:          8102,694 MB/sec
+                 ·gc.alloc.rate.norm:     25113559,148 B/op
+                 ·gc.count:               148,000 counts
+                 ·gc.time:                178,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 334,139 ops/s
+                 ·compiler.time.profiled: 50,000 ms
+                 ·compiler.time.total:    4087,000 ms
+                 ·gc.alloc.rate:          8002,268 MB/sec
+                 ·gc.alloc.rate.norm:     25113899,285 B/op
+                 ·gc.count:               145,000 counts
+                 ·gc.time:                177,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 324,873 ops/s
+                 ·compiler.time.profiled: 8,000 ms
+                 ·compiler.time.total:    4095,000 ms
+                 ·gc.alloc.rate:          7780,402 MB/sec
+                 ·gc.alloc.rate.norm:     25113657,999 B/op
+                 ·gc.count:               142,000 counts
+                 ·gc.time:                179,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 22,00% complete, ETA 01:08:42
+# Fork: 2 of 5
+# Warmup Iteration   1: 319,603 ops/s
+# Warmup Iteration   2: 331,352 ops/s
+# Warmup Iteration   3: 347,460 ops/s
+# Warmup Iteration   4: 333,010 ops/s
+# Warmup Iteration   5: 334,794 ops/s
+Iteration   1: 333,823 ops/s
+                 ·compiler.time.profiled: 5,000 ms
+                 ·compiler.time.total:    3598,000 ms
+                 ·gc.alloc.rate:          7994,585 MB/sec
+                 ·gc.alloc.rate.norm:     25113836,008 B/op
+                 ·gc.count:               120,000 counts
+                 ·gc.time:                251,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 341,673 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    3599,000 ms
+                 ·gc.alloc.rate:          8182,914 MB/sec
+                 ·gc.alloc.rate.norm:     25113774,831 B/op
+                 ·gc.count:               122,000 counts
+                 ·gc.time:                257,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 336,137 ops/s
+                 ·compiler.time.profiled: 44,000 ms
+                 ·compiler.time.total:    3644,000 ms
+                 ·gc.alloc.rate:          8050,000 MB/sec
+                 ·gc.alloc.rate.norm:     25113807,436 B/op
+                 ·gc.count:               120,000 counts
+                 ·gc.time:                251,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 341,215 ops/s
+                 ·compiler.time.profiled: 107,000 ms
+                 ·compiler.time.total:    3751,000 ms
+                 ·gc.alloc.rate:          8171,744 MB/sec
+                 ·gc.alloc.rate.norm:     25113812,151 B/op
+                 ·gc.count:               122,000 counts
+                 ·gc.time:                257,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 333,428 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    3752,000 ms
+                 ·gc.alloc.rate:          7985,359 MB/sec
+                 ·gc.alloc.rate.norm:     25113824,400 B/op
+                 ·gc.count:               119,000 counts
+                 ·gc.time:                254,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 24,00% complete, ETA 01:06:56
+# Fork: 3 of 5
+# Warmup Iteration   1: 319,701 ops/s
+# Warmup Iteration   2: 332,631 ops/s
+# Warmup Iteration   3: 325,940 ops/s
+# Warmup Iteration   4: 335,712 ops/s
+# Warmup Iteration   5: 331,346 ops/s
+Iteration   1: 309,330 ops/s
+                 ·compiler.time.profiled: 2,000 ms
+                 ·compiler.time.total:    4666,000 ms
+                 ·gc.alloc.rate:          7407,841 MB/sec
+                 ·gc.alloc.rate.norm:     25112652,183 B/op
+                 ·gc.count:               111,000 counts
+                 ·gc.time:                248,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 335,697 ops/s
+                 ·compiler.time.profiled: 38,000 ms
+                 ·compiler.time.total:    4706,000 ms
+                 ·gc.alloc.rate:          8039,279 MB/sec
+                 ·gc.alloc.rate.norm:     25112892,495 B/op
+                 ·gc.count:               120,000 counts
+                 ·gc.time:                267,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 330,460 ops/s
+                 ·compiler.time.profiled: 19,000 ms
+                 ·compiler.time.total:    4726,000 ms
+                 ·gc.alloc.rate:          7914,101 MB/sec
+                 ·gc.alloc.rate.norm:     25112877,766 B/op
+                 ·gc.count:               118,000 counts
+                 ·gc.time:                266,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 315,822 ops/s
+                 ·compiler.time.profiled: 133,000 ms
+                 ·compiler.time.total:    4859,000 ms
+                 ·gc.alloc.rate:          7563,228 MB/sec
+                 ·gc.alloc.rate.norm:     25112770,482 B/op
+                 ·gc.count:               113,000 counts
+                 ·gc.time:                252,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 325,881 ops/s
+                 ·compiler.time.profiled: 39,000 ms
+                 ·compiler.time.total:    4898,000 ms
+                 ·gc.alloc.rate:          7804,266 MB/sec
+                 ·gc.alloc.rate.norm:     25112890,778 B/op
+                 ·gc.count:               116,000 counts
+                 ·gc.time:                264,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 26,00% complete, ETA 01:05:11
+# Fork: 4 of 5
+# Warmup Iteration   1: 314,725 ops/s
+# Warmup Iteration   2: 337,774 ops/s
+# Warmup Iteration   3: 333,326 ops/s
+# Warmup Iteration   4: 325,859 ops/s
+# Warmup Iteration   5: 346,566 ops/s
+Iteration   1: 312,175 ops/s
+                 ·compiler.time.profiled: 12,000 ms
+                 ·compiler.time.total:    3669,000 ms
+                 ·gc.alloc.rate:          7475,614 MB/sec
+                 ·gc.alloc.rate.norm:     25110946,309 B/op
+                 ·gc.count:               149,000 counts
+                 ·gc.time:                181,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 341,891 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    3678,000 ms
+                 ·gc.alloc.rate:          8187,059 MB/sec
+                 ·gc.alloc.rate.norm:     25111434,059 B/op
+                 ·gc.count:               164,000 counts
+                 ·gc.time:                200,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 328,867 ops/s
+                 ·compiler.time.profiled: 13,000 ms
+                 ·compiler.time.total:    3691,000 ms
+                 ·gc.alloc.rate:          7875,497 MB/sec
+                 ·gc.alloc.rate.norm:     25111380,243 B/op
+                 ·gc.count:               157,000 counts
+                 ·gc.time:                189,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 332,542 ops/s
+                 ·compiler.time.profiled: 207,000 ms
+                 ·compiler.time.total:    3898,000 ms
+                 ·gc.alloc.rate:          7963,246 MB/sec
+                 ·gc.alloc.rate.norm:     25111450,988 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                196,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 345,697 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    3898,000 ms
+                 ·gc.alloc.rate:          8278,151 MB/sec
+                 ·gc.alloc.rate.norm:     25111467,877 B/op
+                 ·gc.count:               165,000 counts
+                 ·gc.time:                188,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 28,00% complete, ETA 01:03:25
+# Fork: 5 of 5
+# Warmup Iteration   1: 317,841 ops/s
+# Warmup Iteration   2: 334,461 ops/s
+# Warmup Iteration   3: 312,770 ops/s
+# Warmup Iteration   4: 315,396 ops/s
+# Warmup Iteration   5: 332,112 ops/s
+Iteration   1: 325,157 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    2979,000 ms
+                 ·gc.alloc.rate:          7786,392 MB/sec
+                 ·gc.alloc.rate.norm:     25111269,456 B/op
+                 ·gc.count:               131,000 counts
+                 ·gc.time:                220,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 304,646 ops/s
+                 ·compiler.time.profiled: 27,000 ms
+                 ·compiler.time.total:    3007,000 ms
+                 ·gc.alloc.rate:          7295,119 MB/sec
+                 ·gc.alloc.rate.norm:     25110895,651 B/op
+                 ·gc.count:               122,000 counts
+                 ·gc.time:                209,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 322,260 ops/s
+                 ·compiler.time.profiled: 12,000 ms
+                 ·compiler.time.total:    3019,000 ms
+                 ·gc.alloc.rate:          7717,211 MB/sec
+                 ·gc.alloc.rate.norm:     25111269,567 B/op
+                 ·gc.count:               130,000 counts
+                 ·gc.time:                228,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 341,444 ops/s
+                 ·compiler.time.profiled: 196,000 ms
+                 ·compiler.time.total:    3215,000 ms
+                 ·gc.alloc.rate:          8176,443 MB/sec
+                 ·gc.alloc.rate.norm:     25111621,264 B/op
+                 ·gc.count:               137,000 counts
+                 ·gc.time:                237,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 321,723 ops/s
+                 ·compiler.time.profiled: 1,000 ms
+                 ·compiler.time.total:    3217,000 ms
+                 ·gc.alloc.rate:          7704,158 MB/sec
+                 ·gc.alloc.rate.norm:     25111095,100 B/op
+                 ·gc.count:               129,000 counts
+                 ·gc.time:                222,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testFileIO":
+  330,495 ±(99.9%) 8,822 ops/s [Average]
+  (min, avg, max) = (304,646, 330,495, 354,040), stdev = 11,777
+  CI (99.9%): [321,673, 339,317] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.profiled":
+  1029,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 41,160, 207,000), stdev = 60,409
+  CI (99.9%): [1029,000, 1029,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.total":
+  4898,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (2979,000, 3862,280, 4898,000), stdev = 565,988
+  CI (99.9%): [4898,000, 4898,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate":
+  7914,643 ±(99.9%) 211,354 MB/sec [Average]
+  (min, avg, max) = (7295,119, 7914,643, 8478,944), stdev = 282,152
+  CI (99.9%): [7703,289, 8125,997] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm":
+  25112591,214 ±(99.9%) 869,774 B/op [Average]
+  (min, avg, max) = (25110895,651, 25112591,214, 25114011,971), stdev = 1161,123
+  CI (99.9%): [25111721,441, 25113460,988] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.count":
+  3359,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (111,000, 134,360, 165,000), stdev = 17,132
+  CI (99.9%): [3359,000, 3359,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.time":
+  5530,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (170,000, 221,200, 267,000), stdev = 33,890
+  CI (99.9%): [5530,000, 5530,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 78,8%         TIMED_WAITING
+ 21,2%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 78,8% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+ 17,1%  80,5% sun.nio.ch.FileDispatcherImpl.pread0
+  1,1%   5,3% sun.nio.fs.UnixNativeDispatcher.open0
+  0,9%   4,2% <stack is empty, everything is filtered?>
+  0,9%   4,2% sun.nio.ch.KQueue.poll
+  0,3%   1,3% java.nio.HeapByteBuffer.<init>
+  0,2%   1,2% jdk.internal.misc.Unsafe.unpark
+  0,2%   0,8% sun.nio.ch.SimpleAsynchronousFileChannelImpl$2.run
+  0,1%   0,5% java.io.FileDescriptor.close0
+  0,1%   0,5% kotlinx.coroutines.scheduling.CoroutineScheduler.parkedWorkersStackPop
+  0,1%   0,4% sun.nio.ch.IOUtil.read
+  0,3%   1,3% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testFileIO
+# Parameters: (levelOfConcurrency = 1000)
+
+# Run progress: 30,00% complete, ETA 01:01:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 20,653 ops/s
+# Warmup Iteration   2: 17,844 ops/s
+# Warmup Iteration   3: 16,540 ops/s
+# Warmup Iteration   4: 16,360 ops/s
+# Warmup Iteration   5: 16,829 ops/s
+Iteration   1: 16,428 ops/s
+                 ·compiler.time.profiled: 229,000 ms
+                 ·compiler.time.total:    4003,000 ms
+                 ·gc.alloc.rate:          3931,210 MB/sec
+                 ·gc.alloc.rate.norm:     251086560,337 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                2554,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 16,429 ops/s
+                 ·compiler.time.profiled: 6,000 ms
+                 ·compiler.time.total:    4010,000 ms
+                 ·gc.alloc.rate:          3932,554 MB/sec
+                 ·gc.alloc.rate.norm:     251086695,903 B/op
+                 ·gc.count:               154,000 counts
+                 ·gc.time:                2476,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 17,283 ops/s
+                 ·compiler.time.profiled: 58,000 ms
+                 ·compiler.time.total:    4068,000 ms
+                 ·gc.alloc.rate:          4137,387 MB/sec
+                 ·gc.alloc.rate.norm:     251087086,197 B/op
+                 ·gc.count:               159,000 counts
+                 ·gc.time:                2586,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 16,627 ops/s
+                 ·compiler.time.profiled: 23,000 ms
+                 ·compiler.time.total:    4092,000 ms
+                 ·gc.alloc.rate:          3980,228 MB/sec
+                 ·gc.alloc.rate.norm:     251087408,335 B/op
+                 ·gc.count:               165,000 counts
+                 ·gc.time:                2682,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 17,472 ops/s
+                 ·compiler.time.profiled: 120,000 ms
+                 ·compiler.time.total:    4213,000 ms
+                 ·gc.alloc.rate:          4182,556 MB/sec
+                 ·gc.alloc.rate.norm:     251086648,960 B/op
+                 ·gc.count:               146,000 counts
+                 ·gc.time:                2297,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 32,00% complete, ETA 00:59:55
+# Fork: 2 of 5
+# Warmup Iteration   1: 21,567 ops/s
+# Warmup Iteration   2: 19,166 ops/s
+# Warmup Iteration   3: 16,979 ops/s
+# Warmup Iteration   4: 17,189 ops/s
+# Warmup Iteration   5: 18,154 ops/s
+Iteration   1: 16,948 ops/s
+                 ·compiler.time.profiled: 41,000 ms
+                 ·compiler.time.total:    3565,000 ms
+                 ·gc.alloc.rate:          4056,748 MB/sec
+                 ·gc.alloc.rate.norm:     251102164,188 B/op
+                 ·gc.count:               161,000 counts
+                 ·gc.time:                2570,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 17,532 ops/s
+                 ·compiler.time.profiled: ≈ 0 ms
+                 ·compiler.time.total:    3566,000 ms
+                 ·gc.alloc.rate:          4197,197 MB/sec
+                 ·gc.alloc.rate.norm:     251102730,864 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                2479,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 16,978 ops/s
+                 ·compiler.time.profiled: 28,000 ms
+                 ·compiler.time.total:    3595,000 ms
+                 ·gc.alloc.rate:          4065,244 MB/sec
+                 ·gc.alloc.rate.norm:     251102415,953 B/op
+                 ·gc.count:               163,000 counts
+                 ·gc.time:                2661,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 17,772 ops/s
+                 ·compiler.time.profiled: 35,000 ms
+                 ·compiler.time.total:    3631,000 ms
+                 ·gc.alloc.rate:          4254,697 MB/sec
+                 ·gc.alloc.rate.norm:     251102770,831 B/op
+                 ·gc.count:               156,000 counts
+                 ·gc.time:                2468,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 16,390 ops/s
+                 ·compiler.time.profiled: 107,000 ms
+                 ·compiler.time.total:    3740,000 ms
+                 ·gc.alloc.rate:          3924,690 MB/sec
+                 ·gc.alloc.rate.norm:     251102797,285 B/op
+                 ·gc.count:               162,000 counts
+                 ·gc.time:                2597,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 34,00% complete, ETA 00:58:10
+# Fork: 3 of 5
+# Warmup Iteration   1: 20,259 ops/s
+# Warmup Iteration   2: 17,820 ops/s
+# Warmup Iteration   3: 17,038 ops/s
+# Warmup Iteration   4: 16,702 ops/s
+# Warmup Iteration   5: 17,240 ops/s
+Iteration   1: 17,265 ops/s
+                 ·compiler.time.profiled: 95,000 ms
+                 ·compiler.time.total:    4428,000 ms
+                 ·gc.alloc.rate:          4132,296 MB/sec
+                 ·gc.alloc.rate.norm:     251102582,428 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                2570,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 16,217 ops/s
+                 ·compiler.time.profiled: 11,000 ms
+                 ·compiler.time.total:    4439,000 ms
+                 ·gc.alloc.rate:          3881,328 MB/sec
+                 ·gc.alloc.rate.norm:     251102060,221 B/op
+                 ·gc.count:               170,000 counts
+                 ·gc.time:                2683,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 17,403 ops/s
+                 ·compiler.time.profiled: 36,000 ms
+                 ·compiler.time.total:    4475,000 ms
+                 ·gc.alloc.rate:          4166,500 MB/sec
+                 ·gc.alloc.rate.norm:     251103421,760 B/op
+                 ·gc.count:               158,000 counts
+                 ·gc.time:                2510,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 16,822 ops/s
+                 ·compiler.time.profiled: 25,000 ms
+                 ·compiler.time.total:    4500,000 ms
+                 ·gc.alloc.rate:          4027,207 MB/sec
+                 ·gc.alloc.rate.norm:     251102560,615 B/op
+                 ·gc.count:               151,000 counts
+                 ·gc.time:                2391,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 16,899 ops/s
+                 ·compiler.time.profiled: 26,000 ms
+                 ·compiler.time.total:    4526,000 ms
+                 ·gc.alloc.rate:          4045,511 MB/sec
+                 ·gc.alloc.rate.norm:     251102782,871 B/op
+                 ·gc.count:               161,000 counts
+                 ·gc.time:                2642,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 36,00% complete, ETA 00:56:25
+# Fork: 4 of 5
+# Warmup Iteration   1: 22,441 ops/s
+# Warmup Iteration   2: 17,560 ops/s
+# Warmup Iteration   3: 17,525 ops/s
+# Warmup Iteration   4: 17,095 ops/s
+# Warmup Iteration   5: 17,542 ops/s
+Iteration   1: 18,282 ops/s
+                 ·compiler.time.profiled: 40,000 ms
+                 ·compiler.time.total:    3555,000 ms
+                 ·gc.alloc.rate:          4376,768 MB/sec
+                 ·gc.alloc.rate.norm:     251103357,087 B/op
+                 ·gc.count:               151,000 counts
+                 ·gc.time:                2300,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 16,812 ops/s
+                 ·compiler.time.profiled: 18,000 ms
+                 ·compiler.time.total:    3574,000 ms
+                 ·gc.alloc.rate:          4024,819 MB/sec
+                 ·gc.alloc.rate.norm:     251102692,876 B/op
+                 ·gc.count:               159,000 counts
+                 ·gc.time:                2531,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 16,910 ops/s
+                 ·compiler.time.profiled: 43,000 ms
+                 ·compiler.time.total:    3618,000 ms
+                 ·gc.alloc.rate:          4047,321 MB/sec
+                 ·gc.alloc.rate.norm:     251101951,576 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                2566,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 16,690 ops/s
+                 ·compiler.time.profiled: 16,000 ms
+                 ·compiler.time.total:    3635,000 ms
+                 ·gc.alloc.rate:          3995,720 MB/sec
+                 ·gc.alloc.rate.norm:     251102188,599 B/op
+                 ·gc.count:               158,000 counts
+                 ·gc.time:                2548,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 16,634 ops/s
+                 ·compiler.time.profiled: 38,000 ms
+                 ·compiler.time.total:    3674,000 ms
+                 ·gc.alloc.rate:          3981,504 MB/sec
+                 ·gc.alloc.rate.norm:     251101766,419 B/op
+                 ·gc.count:               151,000 counts
+                 ·gc.time:                2491,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 38,00% complete, ETA 00:54:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 21,096 ops/s
+# Warmup Iteration   2: 19,552 ops/s
+# Warmup Iteration   3: 17,914 ops/s
+# Warmup Iteration   4: 18,239 ops/s
+# Warmup Iteration   5: 17,081 ops/s
+Iteration   1: 17,491 ops/s
+                 ·compiler.time.profiled: 19,000 ms
+                 ·compiler.time.total:    4559,000 ms
+                 ·gc.alloc.rate:          4187,428 MB/sec
+                 ·gc.alloc.rate.norm:     251102464,773 B/op
+                 ·gc.count:               150,000 counts
+                 ·gc.time:                2325,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 17,251 ops/s
+                 ·compiler.time.profiled: 150,000 ms
+                 ·compiler.time.total:    4709,000 ms
+                 ·gc.alloc.rate:          4131,031 MB/sec
+                 ·gc.alloc.rate.norm:     251103012,671 B/op
+                 ·gc.count:               152,000 counts
+                 ·gc.time:                2404,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 17,217 ops/s
+                 ·compiler.time.profiled: 13,000 ms
+                 ·compiler.time.total:    4722,000 ms
+                 ·gc.alloc.rate:          4120,679 MB/sec
+                 ·gc.alloc.rate.norm:     251102444,347 B/op
+                 ·gc.count:               143,000 counts
+                 ·gc.time:                2375,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 16,874 ops/s
+                 ·compiler.time.profiled: 19,000 ms
+                 ·compiler.time.total:    4742,000 ms
+                 ·gc.alloc.rate:          4039,474 MB/sec
+                 ·gc.alloc.rate.norm:     251102673,647 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                2579,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 17,078 ops/s
+                 ·compiler.time.profiled: 61,000 ms
+                 ·compiler.time.total:    4804,000 ms
+                 ·gc.alloc.rate:          4087,287 MB/sec
+                 ·gc.alloc.rate.norm:     251102642,419 B/op
+                 ·gc.count:               162,000 counts
+                 ·gc.time:                2593,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testFileIO":
+  17,028 ±(99.9%) 0,359 ops/s [Average]
+  (min, avg, max) = (16,217, 17,028, 18,282), stdev = 0,479
+  CI (99.9%): [16,669, 17,387] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.profiled":
+  1257,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 50,280, 229,000), stdev = 52,850
+  CI (99.9%): [1257,000, 1257,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.total":
+  4804,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (3555,000, 4097,720, 4804,000), stdev = 456,059
+  CI (99.9%): [4804,000, 4804,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate":
+  4076,295 ±(99.9%) 86,033 MB/sec [Average]
+  (min, avg, max) = (3881,328, 4076,295, 4376,768), stdev = 114,852
+  CI (99.9%): [3990,262, 4162,329] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm":
+  251099435,246 ±(99.9%) 4808,906 B/op [Average]
+  (min, avg, max) = (251086560,337, 251099435,246, 251103421,760), stdev = 6419,752
+  CI (99.9%): [251094626,340, 251104244,153] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.count":
+  3932,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (143,000, 157,280, 170,000), stdev = 6,168
+  CI (99.9%): [3932,000, 3932,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.time":
+  62878,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (2297,000, 2515,120, 2683,000), stdev = 113,613
+  CI (99.9%): [62878,000, 62878,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 94,4%         TIMED_WAITING
+  5,6%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 94,4% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  4,9%  87,5% sun.nio.ch.FileDispatcherImpl.pread0
+  0,3%   4,7% sun.nio.fs.UnixNativeDispatcher.open0
+  0,1%   1,8% <stack is empty, everything is filtered?>
+  0,1%   1,8% sun.nio.ch.KQueue.poll
+  0,1%   1,5% java.lang.Integer.valueOf
+  0,0%   0,8% jdk.internal.misc.Unsafe.unpark
+  0,0%   0,5% java.nio.HeapByteBuffer.<init>
+  0,0%   0,4% sun.nio.ch.SimpleAsynchronousFileChannelImpl$2.run
+  0,0%   0,2% java.io.FileDescriptor.close0
+  0,0%   0,2% sun.nio.ch.IOUtil.read
+  0,0%   0,7% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testFileIO
+# Parameters: (levelOfConcurrency = 4000)
+
+# Run progress: 40,00% complete, ETA 00:52:55
+# Fork: 1 of 5
+# Warmup Iteration   1: 4,083 ops/s
+# Warmup Iteration   2: 3,596 ops/s
+# Warmup Iteration   3: 3,456 ops/s
+# Warmup Iteration   4: 3,452 ops/s
+# Warmup Iteration   5: 3,388 ops/s
+Iteration   1: 3,207 ops/s
+                 ·compiler.time.profiled: 6,000 ms
+                 ·compiler.time.total:    4750,000 ms
+                 ·gc.alloc.rate:          3068,929 MB/sec
+                 ·gc.alloc.rate.norm:     1004392900,606 B/op
+                 ·gc.count:               162,000 counts
+                 ·gc.time:                3440,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 3,074 ops/s
+                 ·compiler.time.profiled: 30,000 ms
+                 ·compiler.time.total:    4782,000 ms
+                 ·gc.alloc.rate:          2937,502 MB/sec
+                 ·gc.alloc.rate.norm:     1004390032,258 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                3304,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 3,083 ops/s
+                 ·compiler.time.profiled: 78,000 ms
+                 ·compiler.time.total:    4860,000 ms
+                 ·gc.alloc.rate:          2951,468 MB/sec
+                 ·gc.alloc.rate.norm:     1004388890,581 B/op
+                 ·gc.count:               165,000 counts
+                 ·gc.time:                3368,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 3,325 ops/s
+                 ·compiler.time.profiled: 3,000 ms
+                 ·compiler.time.total:    4863,000 ms
+                 ·gc.alloc.rate:          3183,412 MB/sec
+                 ·gc.alloc.rate.norm:     1004387979,059 B/op
+                 ·gc.count:               148,000 counts
+                 ·gc.time:                3147,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 3,234 ops/s
+                 ·compiler.time.profiled: 5,000 ms
+                 ·compiler.time.total:    4869,000 ms
+                 ·gc.alloc.rate:          3095,025 MB/sec
+                 ·gc.alloc.rate.norm:     1004394476,606 B/op
+                 ·gc.count:               155,000 counts
+                 ·gc.time:                3083,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 42,00% complete, ETA 00:51:11
+# Fork: 2 of 5
+# Warmup Iteration   1: 3,952 ops/s
+# Warmup Iteration   2: 3,731 ops/s
+# Warmup Iteration   3: 3,526 ops/s
+# Warmup Iteration   4: 3,438 ops/s
+# Warmup Iteration   5: 3,501 ops/s
+Iteration   1: 3,250 ops/s
+                 ·compiler.time.profiled: 932,000 ms
+                 ·compiler.time.total:    5178,000 ms
+                 ·gc.alloc.rate:          3112,287 MB/sec
+                 ·gc.alloc.rate.norm:     1004393229,818 B/op
+                 ·gc.count:               158,000 counts
+                 ·gc.time:                3312,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 3,084 ops/s
+                 ·compiler.time.profiled: 66,000 ms
+                 ·compiler.time.total:    5245,000 ms
+                 ·gc.alloc.rate:          2952,598 MB/sec
+                 ·gc.alloc.rate.norm:     1004388771,871 B/op
+                 ·gc.count:               183,000 counts
+                 ·gc.time:                3522,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 3,422 ops/s
+                 ·compiler.time.profiled: 219,000 ms
+                 ·compiler.time.total:    5464,000 ms
+                 ·gc.alloc.rate:          3277,874 MB/sec
+                 ·gc.alloc.rate.norm:     1004390905,829 B/op
+                 ·gc.count:               140,000 counts
+                 ·gc.time:                3036,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 3,254 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    5473,000 ms
+                 ·gc.alloc.rate:          3115,332 MB/sec
+                 ·gc.alloc.rate.norm:     1004393830,545 B/op
+                 ·gc.count:               163,000 counts
+                 ·gc.time:                3347,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 3,278 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    5477,000 ms
+                 ·gc.alloc.rate:          3139,903 MB/sec
+                 ·gc.alloc.rate.norm:     1004392812,121 B/op
+                 ·gc.count:               157,000 counts
+                 ·gc.time:                3312,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 44,00% complete, ETA 00:49:27
+# Fork: 3 of 5
+# Warmup Iteration   1: 3,790 ops/s
+# Warmup Iteration   2: 3,719 ops/s
+# Warmup Iteration   3: 3,556 ops/s
+# Warmup Iteration   4: 3,332 ops/s
+# Warmup Iteration   5: 3,457 ops/s
+Iteration   1: 3,361 ops/s
+                 ·compiler.time.profiled: 34,000 ms
+                 ·compiler.time.total:    4557,000 ms
+                 ·gc.alloc.rate:          3218,747 MB/sec
+                 ·gc.alloc.rate.norm:     1004394219,529 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                3301,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 3,363 ops/s
+                 ·compiler.time.profiled: 86,000 ms
+                 ·compiler.time.total:    4645,000 ms
+                 ·gc.alloc.rate:          3219,885 MB/sec
+                 ·gc.alloc.rate.norm:     1004389372,941 B/op
+                 ·gc.count:               156,000 counts
+                 ·gc.time:                3292,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 3,396 ops/s
+                 ·compiler.time.profiled: 265,000 ms
+                 ·compiler.time.total:    4911,000 ms
+                 ·gc.alloc.rate:          3251,096 MB/sec
+                 ·gc.alloc.rate.norm:     1004394344,235 B/op
+                 ·gc.count:               155,000 counts
+                 ·gc.time:                3286,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 3,128 ops/s
+                 ·compiler.time.profiled: 6,000 ms
+                 ·compiler.time.total:    4918,000 ms
+                 ·gc.alloc.rate:          2995,506 MB/sec
+                 ·gc.alloc.rate.norm:     1004389441,750 B/op
+                 ·gc.count:               162,000 counts
+                 ·gc.time:                3401,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 3,211 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    4923,000 ms
+                 ·gc.alloc.rate:          3074,231 MB/sec
+                 ·gc.alloc.rate.norm:     1004392252,121 B/op
+                 ·gc.count:               160,000 counts
+                 ·gc.time:                3394,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 46,00% complete, ETA 00:47:42
+# Fork: 4 of 5
+# Warmup Iteration   1: 4,003 ops/s
+# Warmup Iteration   2: 3,515 ops/s
+# Warmup Iteration   3: 3,428 ops/s
+# Warmup Iteration   4: 3,180 ops/s
+# Warmup Iteration   5: 3,477 ops/s
+Iteration   1: 3,225 ops/s
+                 ·compiler.time.profiled: 11,000 ms
+                 ·compiler.time.total:    4515,000 ms
+                 ·gc.alloc.rate:          3086,675 MB/sec
+                 ·gc.alloc.rate.norm:     1004396126,303 B/op
+                 ·gc.count:               164,000 counts
+                 ·gc.time:                3370,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 3,209 ops/s
+                 ·compiler.time.profiled: 74,000 ms
+                 ·compiler.time.total:    4590,000 ms
+                 ·gc.alloc.rate:          3072,231 MB/sec
+                 ·gc.alloc.rate.norm:     1004394731,879 B/op
+                 ·gc.count:               164,000 counts
+                 ·gc.time:                3443,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 3,365 ops/s
+                 ·compiler.time.profiled: 54,000 ms
+                 ·compiler.time.total:    4644,000 ms
+                 ·gc.alloc.rate:          3221,301 MB/sec
+                 ·gc.alloc.rate.norm:     1004392823,765 B/op
+                 ·gc.count:               152,000 counts
+                 ·gc.time:                3223,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 3,293 ops/s
+                 ·compiler.time.profiled: 34,000 ms
+                 ·compiler.time.total:    4679,000 ms
+                 ·gc.alloc.rate:          3152,918 MB/sec
+                 ·gc.alloc.rate.norm:     1004391682,588 B/op
+                 ·gc.count:               157,000 counts
+                 ·gc.time:                3336,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 3,356 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    4683,000 ms
+                 ·gc.alloc.rate:          3211,913 MB/sec
+                 ·gc.alloc.rate.norm:     1004390621,176 B/op
+                 ·gc.count:               157,000 counts
+                 ·gc.time:                3343,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 48,00% complete, ETA 00:45:58
+# Fork: 5 of 5
+# Warmup Iteration   1: 3,986 ops/s
+# Warmup Iteration   2: 3,538 ops/s
+# Warmup Iteration   3: 3,462 ops/s
+# Warmup Iteration   4: 3,388 ops/s
+# Warmup Iteration   5: 3,357 ops/s
+Iteration   1: 3,375 ops/s
+                 ·compiler.time.profiled: 12,000 ms
+                 ·compiler.time.total:    5211,000 ms
+                 ·gc.alloc.rate:          3233,086 MB/sec
+                 ·gc.alloc.rate.norm:     1004421091,059 B/op
+                 ·gc.count:               152,000 counts
+                 ·gc.time:                3216,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 3,394 ops/s
+                 ·compiler.time.profiled: 30,000 ms
+                 ·compiler.time.total:    5242,000 ms
+                 ·gc.alloc.rate:          3248,280 MB/sec
+                 ·gc.alloc.rate.norm:     1004422323,529 B/op
+                 ·gc.count:               154,000 counts
+                 ·gc.time:                3244,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 3,261 ops/s
+                 ·compiler.time.profiled: 63,000 ms
+                 ·compiler.time.total:    5305,000 ms
+                 ·gc.alloc.rate:          3120,217 MB/sec
+                 ·gc.alloc.rate.norm:     1004424737,212 B/op
+                 ·gc.count:               164,000 counts
+                 ·gc.time:                3438,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 3,250 ops/s
+                 ·compiler.time.profiled: 35,000 ms
+                 ·compiler.time.total:    5340,000 ms
+                 ·gc.alloc.rate:          3110,553 MB/sec
+                 ·gc.alloc.rate.norm:     1004426018,667 B/op
+                 ·gc.count:               162,000 counts
+                 ·gc.time:                3388,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 3,242 ops/s
+                 ·compiler.time.profiled: 4,000 ms
+                 ·compiler.time.total:    5345,000 ms
+                 ·gc.alloc.rate:          3104,831 MB/sec
+                 ·gc.alloc.rate.norm:     1004425132,606 B/op
+                 ·gc.count:               167,000 counts
+                 ·gc.time:                3510,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testFileIO":
+  3,266 ±(99.9%) 0,076 ops/s [Average]
+  (min, avg, max) = (3,074, 3,266, 3,422), stdev = 0,101
+  CI (99.9%): [3,190, 3,341] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.profiled":
+  2068,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (3,000, 82,720, 932,000), stdev = 188,392
+  CI (99.9%): [2068,000, 2068,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·compiler.time.total":
+  5477,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (4515,000, 4978,760, 5477,000), stdev = 317,524
+  CI (99.9%): [5477,000, 5477,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate":
+  3126,232 ±(99.9%) 73,119 MB/sec [Average]
+  (min, avg, max) = (2937,502, 3126,232, 3277,874), stdev = 97,612
+  CI (99.9%): [3053,113, 3199,351] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm":
+  1004398349,946 ±(99.9%) 9896,905 B/op [Average]
+  (min, avg, max) = (1004387979,059, 1004398349,946, 1004426018,667), stdev = 13212,085
+  CI (99.9%): [1004388453,041, 1004408246,851] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.count":
+  3977,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (140,000, 159,080, 183,000), stdev = 7,788
+  CI (99.9%): [3977,000, 3977,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·gc.time":
+  83056,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (3036,000, 3322,240, 3522,000), stdev = 118,787
+  CI (99.9%): [83056,000, 83056,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testFileIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 95,1%         TIMED_WAITING
+  4,9%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 95,1% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  4,4%  89,5% sun.nio.ch.FileDispatcherImpl.pread0
+  0,2%   4,0% sun.nio.fs.UnixNativeDispatcher.open0
+  0,1%   2,0% java.lang.Integer.valueOf
+  0,1%   1,3% <stack is empty, everything is filtered?>
+  0,1%   1,3% sun.nio.ch.KQueue.poll
+  0,0%   0,6% jdk.internal.misc.Unsafe.unpark
+  0,0%   0,5% java.nio.HeapByteBuffer.<init>
+  0,0%   0,2% kotlinx.coroutines.internal.DispatchedContinuation.resumeWith
+  0,0%   0,1% sun.nio.ch.SimpleAsynchronousFileChannelImpl$2.run
+  0,0%   0,1% sun.nio.ch.IOUtil.read
+  0,0%   0,5% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testSleep
+# Parameters: (levelOfConcurrency = 1)
+
+# Run progress: 50,00% complete, ETA 00:44:13
+# Fork: 1 of 5
+# Warmup Iteration   1: 9,219 ops/s
+# Warmup Iteration   2: 9,294 ops/s
+# Warmup Iteration   3: 9,333 ops/s
+# Warmup Iteration   4: 9,327 ops/s
+# Warmup Iteration   5: 9,353 ops/s
+Iteration   1: 9,335 ops/s
+                 ·compiler.time.profiled: 25,000 ms
+                 ·compiler.time.total:    1362,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,128 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                7,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,276 ops/s
+                 ·compiler.time.profiled: 21,000 ms
+                 ·compiler.time.total:    1385,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,581 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,305 ops/s
+                 ·compiler.time.profiled: 150,000 ms
+                 ·compiler.time.total:    1536,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1528,766 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,308 ops/s
+                 ·compiler.time.profiled: 26,000 ms
+                 ·compiler.time.total:    1562,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,128 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,290 ops/s
+                 ·compiler.time.profiled: 39,000 ms
+                 ·compiler.time.total:    1603,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1551,656 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 52,00% complete, ETA 00:42:27
+# Fork: 2 of 5
+# Warmup Iteration   1: 9,184 ops/s
+# Warmup Iteration   2: 9,292 ops/s
+# Warmup Iteration   3: 9,298 ops/s
+# Warmup Iteration   4: 9,325 ops/s
+# Warmup Iteration   5: 9,376 ops/s
+Iteration   1: 9,309 ops/s
+                 ·compiler.time.profiled: 20,000 ms
+                 ·compiler.time.total:    1351,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,128 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                6,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,353 ops/s
+                 ·compiler.time.profiled: 20,000 ms
+                 ·compiler.time.total:    1378,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,468 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,328 ops/s
+                 ·compiler.time.profiled: 147,000 ms
+                 ·compiler.time.total:    1527,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1528,766 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,319 ops/s
+                 ·compiler.time.profiled: 22,000 ms
+                 ·compiler.time.total:    1549,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,128 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,331 ops/s
+                 ·compiler.time.profiled: 28,000 ms
+                 ·compiler.time.total:    1578,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1551,319 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 54,00% complete, ETA 00:40:41
+# Fork: 3 of 5
+# Warmup Iteration   1: 9,146 ops/s
+# Warmup Iteration   2: 9,299 ops/s
+# Warmup Iteration   3: 9,232 ops/s
+# Warmup Iteration   4: 9,345 ops/s
+# Warmup Iteration   5: 9,328 ops/s
+Iteration   1: 9,390 ops/s
+                 ·compiler.time.profiled: 27,000 ms
+                 ·compiler.time.total:    1267,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,021 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                6,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,380 ops/s
+                 ·compiler.time.profiled: 13,000 ms
+                 ·compiler.time.total:    1282,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,468 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,301 ops/s
+                 ·compiler.time.profiled: 129,000 ms
+                 ·compiler.time.total:    1411,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1528,766 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,341 ops/s
+                 ·compiler.time.profiled: 25,000 ms
+                 ·compiler.time.total:    1437,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,128 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,361 ops/s
+                 ·compiler.time.profiled: 21,000 ms
+                 ·compiler.time.total:    1459,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1551,319 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 56,00% complete, ETA 00:38:55
+# Fork: 4 of 5
+# Warmup Iteration   1: 9,192 ops/s
+# Warmup Iteration   2: 9,277 ops/s
+# Warmup Iteration   3: 9,319 ops/s
+# Warmup Iteration   4: 9,315 ops/s
+# Warmup Iteration   5: 9,357 ops/s
+Iteration   1: 9,290 ops/s
+                 ·compiler.time.profiled: 29,000 ms
+                 ·compiler.time.total:    1403,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,237 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                6,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,304 ops/s
+                 ·compiler.time.profiled: 14,000 ms
+                 ·compiler.time.total:    1421,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,468 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,375 ops/s
+                 ·compiler.time.profiled: 133,000 ms
+                 ·compiler.time.total:    1555,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1528,766 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,391 ops/s
+                 ·compiler.time.profiled: 16,000 ms
+                 ·compiler.time.total:    1572,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,021 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,378 ops/s
+                 ·compiler.time.profiled: 18,000 ms
+                 ·compiler.time.total:    1592,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1551,319 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 58,00% complete, ETA 00:37:09
+# Fork: 5 of 5
+# Warmup Iteration   1: 9,170 ops/s
+# Warmup Iteration   2: 9,290 ops/s
+# Warmup Iteration   3: 9,298 ops/s
+# Warmup Iteration   4: 9,397 ops/s
+# Warmup Iteration   5: 9,360 ops/s
+Iteration   1: 9,330 ops/s
+                 ·compiler.time.profiled: 26,000 ms
+                 ·compiler.time.total:    1298,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,128 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                7,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,359 ops/s
+                 ·compiler.time.profiled: 14,000 ms
+                 ·compiler.time.total:    1316,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,468 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,365 ops/s
+                 ·compiler.time.profiled: 141,000 ms
+                 ·compiler.time.total:    1458,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1528,766 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,287 ops/s
+                 ·compiler.time.profiled: 43,000 ms
+                 ·compiler.time.total:    1502,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1530,237 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,290 ops/s
+                 ·compiler.time.profiled: 19,000 ms
+                 ·compiler.time.total:    1522,000 ms
+                 ·gc.alloc.rate:          0,014 MB/sec
+                 ·gc.alloc.rate.norm:     1551,656 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testSleep":
+  9,332 ±(99.9%) 0,027 ops/s [Average]
+  (min, avg, max) = (9,276, 9,332, 9,391), stdev = 0,036
+  CI (99.9%): [9,305, 9,358] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.profiled":
+  1166,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (13,000, 46,640, 150,000), stdev = 48,275
+  CI (99.9%): [1166,000, 1166,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.total":
+  1603,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (1267,000, 1453,040, 1603,000), stdev = 104,842
+  CI (99.9%): [1603,000, 1603,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate":
+  0,014 ±(99.9%) 0,001 MB/sec [Average]
+  (min, avg, max) = (0,014, 0,014, 0,014), stdev = 0,001
+  CI (99.9%): [0,014, 0,014] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate.norm":
+  1534,193 ±(99.9%) 6,614 B/op [Average]
+  (min, avg, max) = (1528,766, 1534,193, 1551,656), stdev = 8,829
+  CI (99.9%): [1527,580, 1540,807] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.count":
+  5,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (≈ 0, 0,200, 1,000), stdev = 0,408
+  CI (99.9%): [5,000, 5,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.time":
+  32,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 1,280, 7,000), stdev = 2,622
+  CI (99.9%): [32,000, 32,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 74,6%         TIMED_WAITING
+ 25,4%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 74,6% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+ 12,5%  49,2% <stack is empty, everything is filtered?>
+ 12,5%  49,1% sun.nio.ch.KQueue.poll
+  0,1%   0,4% jdk.internal.misc.Unsafe.unpark
+  0,0%   0,1% kotlinx.coroutines.scheduling.CoroutineScheduler.parkedWorkersStackPop
+  0,0%   0,1% kotlinx.coroutines.DefaultExecutor.run
+  0,0%   0,1% kotlinx.coroutines.internal.LockFreeTaskQueueCore$Companion.updateTail
+  0,0%   0,1% kotlinx.coroutines.scheduling.CoroutineScheduler.dispatch
+  0,0%   0,1% kotlinx.coroutines.CancellableContinuationImpl.resumedState
+  0,0%   0,1% kotlinx.coroutines.internal.LockFreeTaskQueue.addLast
+  0,0%   0,1% kotlinx.coroutines.internal.LockFreeLinkedListNode.correctPrev
+  0,2%   0,7% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testSleep
+# Parameters: (levelOfConcurrency = 10)
+
+# Run progress: 60,00% complete, ETA 00:35:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 9,141 ops/s
+# Warmup Iteration   2: 9,315 ops/s
+# Warmup Iteration   3: 9,277 ops/s
+# Warmup Iteration   4: 9,283 ops/s
+# Warmup Iteration   5: 9,317 ops/s
+Iteration   1: 9,340 ops/s
+                 ·compiler.time.profiled: 113,000 ms
+                 ·compiler.time.total:    1903,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6444,851 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,306 ops/s
+                 ·compiler.time.profiled: 49,000 ms
+                 ·compiler.time.total:    1956,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6392,766 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,339 ops/s
+                 ·compiler.time.profiled: 175,000 ms
+                 ·compiler.time.total:    2132,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6336,596 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,338 ops/s
+                 ·compiler.time.profiled: 22,000 ms
+                 ·compiler.time.total:    2154,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6393,702 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,251 ops/s
+                 ·compiler.time.profiled: 66,000 ms
+                 ·compiler.time.total:    2221,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6359,226 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 62,00% complete, ETA 00:33:37
+# Fork: 2 of 5
+# Warmup Iteration   1: 9,169 ops/s
+# Warmup Iteration   2: 9,266 ops/s
+# Warmup Iteration   3: 9,367 ops/s
+# Warmup Iteration   4: 9,356 ops/s
+# Warmup Iteration   5: 9,329 ops/s
+Iteration   1: 9,298 ops/s
+                 ·compiler.time.profiled: 196,000 ms
+                 ·compiler.time.total:    2140,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6396,215 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,342 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    2152,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6339,745 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,319 ops/s
+                 ·compiler.time.profiled: 191,000 ms
+                 ·compiler.time.total:    2344,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6353,447 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,368 ops/s
+                 ·compiler.time.profiled: 35,000 ms
+                 ·compiler.time.total:    2379,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6385,617 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,318 ops/s
+                 ·compiler.time.profiled: 56,000 ms
+                 ·compiler.time.total:    2437,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6409,277 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 64,00% complete, ETA 00:31:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 9,172 ops/s
+# Warmup Iteration   2: 9,262 ops/s
+# Warmup Iteration   3: 9,298 ops/s
+# Warmup Iteration   4: 9,343 ops/s
+# Warmup Iteration   5: 9,350 ops/s
+Iteration   1: 9,348 ops/s
+                 ·compiler.time.profiled: 108,000 ms
+                 ·compiler.time.total:    1888,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6380,851 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,331 ops/s
+                 ·compiler.time.profiled: 3,000 ms
+                 ·compiler.time.total:    1893,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6355,830 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,286 ops/s
+                 ·compiler.time.profiled: 158,000 ms
+                 ·compiler.time.total:    2052,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6404,731 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,386 ops/s
+                 ·compiler.time.profiled: 25,000 ms
+                 ·compiler.time.total:    2077,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6381,617 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,308 ops/s
+                 ·compiler.time.profiled: 51,000 ms
+                 ·compiler.time.total:    2129,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6404,085 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 66,00% complete, ETA 00:30:05
+# Fork: 4 of 5
+# Warmup Iteration   1: 9,112 ops/s
+# Warmup Iteration   2: 9,294 ops/s
+# Warmup Iteration   3: 9,281 ops/s
+# Warmup Iteration   4: 9,317 ops/s
+# Warmup Iteration   5: 9,312 ops/s
+Iteration   1: 9,355 ops/s
+                 ·compiler.time.profiled: 122,000 ms
+                 ·compiler.time.total:    2037,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6368,426 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,300 ops/s
+                 ·compiler.time.profiled: 21,000 ms
+                 ·compiler.time.total:    2062,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6366,979 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,312 ops/s
+                 ·compiler.time.profiled: 198,000 ms
+                 ·compiler.time.total:    2260,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6363,404 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,265 ops/s
+                 ·compiler.time.profiled: 32,000 ms
+                 ·compiler.time.total:    2292,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6396,043 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,342 ops/s
+                 ·compiler.time.profiled: 49,000 ms
+                 ·compiler.time.total:    2342,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6378,894 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 68,00% complete, ETA 00:28:18
+# Fork: 5 of 5
+# Warmup Iteration   1: 9,100 ops/s
+# Warmup Iteration   2: 9,296 ops/s
+# Warmup Iteration   3: 9,282 ops/s
+# Warmup Iteration   4: 9,297 ops/s
+# Warmup Iteration   5: 9,349 ops/s
+Iteration   1: 9,345 ops/s
+                 ·compiler.time.profiled: 120,000 ms
+                 ·compiler.time.total:    1974,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6276,000 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,315 ops/s
+                 ·compiler.time.profiled: 32,000 ms
+                 ·compiler.time.total:    2013,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6317,702 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,311 ops/s
+                 ·compiler.time.profiled: 190,000 ms
+                 ·compiler.time.total:    2204,000 ms
+                 ·gc.alloc.rate:          0,056 MB/sec
+                 ·gc.alloc.rate.norm:     6334,894 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,372 ops/s
+                 ·compiler.time.profiled: 27,000 ms
+                 ·compiler.time.total:    2231,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6397,277 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,317 ops/s
+                 ·compiler.time.profiled: 54,000 ms
+                 ·compiler.time.total:    2287,000 ms
+                 ·gc.alloc.rate:          0,057 MB/sec
+                 ·gc.alloc.rate.norm:     6426,213 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testSleep":
+  9,325 ±(99.9%) 0,024 ops/s [Average]
+  (min, avg, max) = (9,251, 9,325, 9,386), stdev = 0,032
+  CI (99.9%): [9,301, 9,348] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.profiled":
+  2102,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (3,000, 84,080, 198,000), stdev = 66,528
+  CI (99.9%): [2102,000, 2102,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.total":
+  2437,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (1888,000, 2142,360, 2437,000), stdev = 157,164
+  CI (99.9%): [2437,000, 2437,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate":
+  0,057 ±(99.9%) 0,001 MB/sec [Average]
+  (min, avg, max) = (0,056, 0,057, 0,057), stdev = 0,001
+  CI (99.9%): [0,056, 0,057] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate.norm":
+  6374,575 ±(99.9%) 27,093 B/op [Average]
+  (min, avg, max) = (6276,000, 6374,575, 6444,851), stdev = 36,169
+  CI (99.9%): [6347,482, 6401,669] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.count":
+  ≈ 0 counts
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 84,3%         TIMED_WAITING
+ 15,7%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 84,3% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  7,7%  48,9% <stack is empty, everything is filtered?>
+  7,7%  48,9% sun.nio.ch.KQueue.poll
+  0,1%   0,9% jdk.internal.misc.Unsafe.unpark
+  0,0%   0,1% kotlinx.coroutines.DefaultExecutor.run
+  0,0%   0,1% kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker
+  0,0%   0,1% kotlinx.coroutines.DispatchedTask.run
+  0,0%   0,1% kotlinx.coroutines.internal.LockFreeTaskQueueCore$Companion.updateHead
+  0,0%   0,1% kotlinx.coroutines.scheduling.CoroutineScheduler.tryUnpark
+  0,0%   0,1% jdk.internal.misc.Unsafe.park
+  0,0%   0,1% kotlinx.coroutines.JobSupport.isActive
+  0,1%   0,7% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testSleep
+# Parameters: (levelOfConcurrency = 100)
+
+# Run progress: 70,00% complete, ETA 00:26:32
+# Fork: 1 of 5
+# Warmup Iteration   1: 9,157 ops/s
+# Warmup Iteration   2: 9,309 ops/s
+# Warmup Iteration   3: 9,264 ops/s
+# Warmup Iteration   4: 9,381 ops/s
+# Warmup Iteration   5: 9,240 ops/s
+Iteration   1: 9,335 ops/s
+                 ·compiler.time.profiled: 64,000 ms
+                 ·compiler.time.total:    2056,000 ms
+                 ·gc.alloc.rate:          0,525 MB/sec
+                 ·gc.alloc.rate.norm:     58949,191 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,248 ops/s
+                 ·compiler.time.profiled: 65,000 ms
+                 ·compiler.time.total:    2124,000 ms
+                 ·gc.alloc.rate:          0,517 MB/sec
+                 ·gc.alloc.rate.norm:     58651,957 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,314 ops/s
+                 ·compiler.time.profiled: 180,000 ms
+                 ·compiler.time.total:    2304,000 ms
+                 ·gc.alloc.rate:          0,519 MB/sec
+                 ·gc.alloc.rate.norm:     58465,532 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,297 ops/s
+                 ·compiler.time.profiled: 21,000 ms
+                 ·compiler.time.total:    2325,000 ms
+                 ·gc.alloc.rate:          0,521 MB/sec
+                 ·gc.alloc.rate.norm:     58816,851 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,284 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    2337,000 ms
+                 ·gc.alloc.rate:          0,522 MB/sec
+                 ·gc.alloc.rate.norm:     59004,129 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 72,00% complete, ETA 00:24:46
+# Fork: 2 of 5
+# Warmup Iteration   1: 9,109 ops/s
+# Warmup Iteration   2: 9,278 ops/s
+# Warmup Iteration   3: 9,295 ops/s
+# Warmup Iteration   4: 9,273 ops/s
+# Warmup Iteration   5: 9,307 ops/s
+Iteration   1: 9,352 ops/s
+                 ·compiler.time.profiled: 53,000 ms
+                 ·compiler.time.total:    2124,000 ms
+                 ·gc.alloc.rate:          0,527 MB/sec
+                 ·gc.alloc.rate.norm:     59089,787 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,314 ops/s
+                 ·compiler.time.profiled: 67,000 ms
+                 ·compiler.time.total:    2196,000 ms
+                 ·gc.alloc.rate:          0,518 MB/sec
+                 ·gc.alloc.rate.norm:     58359,489 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,327 ops/s
+                 ·compiler.time.profiled: 194,000 ms
+                 ·compiler.time.total:    2390,000 ms
+                 ·gc.alloc.rate:          0,518 MB/sec
+                 ·gc.alloc.rate.norm:     58261,532 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,277 ops/s
+                 ·compiler.time.profiled: 19,000 ms
+                 ·compiler.time.total:    2411,000 ms
+                 ·gc.alloc.rate:          0,523 MB/sec
+                 ·gc.alloc.rate.norm:     59086,882 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,326 ops/s
+                 ·compiler.time.profiled: 7,000 ms
+                 ·compiler.time.total:    2420,000 ms
+                 ·gc.alloc.rate:          0,523 MB/sec
+                 ·gc.alloc.rate.norm:     58839,404 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 74,00% complete, ETA 00:23:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 9,094 ops/s
+# Warmup Iteration   2: 9,233 ops/s
+# Warmup Iteration   3: 9,260 ops/s
+# Warmup Iteration   4: 9,292 ops/s
+# Warmup Iteration   5: 9,333 ops/s
+Iteration   1: 9,266 ops/s
+                 ·compiler.time.profiled: 27,000 ms
+                 ·compiler.time.total:    2147,000 ms
+                 ·gc.alloc.rate:          0,522 MB/sec
+                 ·gc.alloc.rate.norm:     59074,753 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,321 ops/s
+                 ·compiler.time.profiled: 62,000 ms
+                 ·compiler.time.total:    2214,000 ms
+                 ·gc.alloc.rate:          0,524 MB/sec
+                 ·gc.alloc.rate.norm:     58924,426 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,334 ops/s
+                 ·compiler.time.profiled: 198,000 ms
+                 ·compiler.time.total:    2412,000 ms
+                 ·gc.alloc.rate:          0,523 MB/sec
+                 ·gc.alloc.rate.norm:     58732,511 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,300 ops/s
+                 ·compiler.time.profiled: 43,000 ms
+                 ·compiler.time.total:    2455,000 ms
+                 ·gc.alloc.rate:          0,519 MB/sec
+                 ·gc.alloc.rate.norm:     58533,872 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,342 ops/s
+                 ·compiler.time.profiled: 26,000 ms
+                 ·compiler.time.total:    2481,000 ms
+                 ·gc.alloc.rate:          0,521 MB/sec
+                 ·gc.alloc.rate.norm:     58505,617 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 76,00% complete, ETA 00:21:14
+# Fork: 4 of 5
+# Warmup Iteration   1: 9,144 ops/s
+# Warmup Iteration   2: 9,249 ops/s
+# Warmup Iteration   3: 9,252 ops/s
+# Warmup Iteration   4: 9,345 ops/s
+# Warmup Iteration   5: 9,242 ops/s
+Iteration   1: 9,275 ops/s
+                 ·compiler.time.profiled: 79,000 ms
+                 ·compiler.time.total:    2179,000 ms
+                 ·gc.alloc.rate:          0,524 MB/sec
+                 ·gc.alloc.rate.norm:     59215,054 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,406 ops/s
+                 ·compiler.time.profiled: 102,000 ms
+                 ·compiler.time.total:    2284,000 ms
+                 ·gc.alloc.rate:          0,529 MB/sec
+                 ·gc.alloc.rate.norm:     58938,863 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,335 ops/s
+                 ·compiler.time.profiled: 181,000 ms
+                 ·compiler.time.total:    2466,000 ms
+                 ·gc.alloc.rate:          0,524 MB/sec
+                 ·gc.alloc.rate.norm:     58862,979 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,334 ops/s
+                 ·compiler.time.profiled: 14,000 ms
+                 ·compiler.time.total:    2480,000 ms
+                 ·gc.alloc.rate:          0,529 MB/sec
+                 ·gc.alloc.rate.norm:     59380,426 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,326 ops/s
+                 ·compiler.time.profiled: 72,000 ms
+                 ·compiler.time.total:    2553,000 ms
+                 ·gc.alloc.rate:          0,523 MB/sec
+                 ·gc.alloc.rate.norm:     58803,234 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 78,00% complete, ETA 00:19:28
+# Fork: 5 of 5
+# Warmup Iteration   1: 9,129 ops/s
+# Warmup Iteration   2: 9,293 ops/s
+# Warmup Iteration   3: 9,276 ops/s
+# Warmup Iteration   4: 9,315 ops/s
+# Warmup Iteration   5: 9,295 ops/s
+Iteration   1: 9,277 ops/s
+                 ·compiler.time.profiled: 34,000 ms
+                 ·compiler.time.total:    2176,000 ms
+                 ·gc.alloc.rate:          0,526 MB/sec
+                 ·gc.alloc.rate.norm:     59471,656 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,287 ops/s
+                 ·compiler.time.profiled: 45,000 ms
+                 ·compiler.time.total:    2224,000 ms
+                 ·gc.alloc.rate:          0,522 MB/sec
+                 ·gc.alloc.rate.norm:     58998,194 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,246 ops/s
+                 ·compiler.time.profiled: 188,000 ms
+                 ·compiler.time.total:    2412,000 ms
+                 ·gc.alloc.rate:          0,519 MB/sec
+                 ·gc.alloc.rate.norm:     58850,323 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,312 ops/s
+                 ·compiler.time.profiled: 21,000 ms
+                 ·compiler.time.total:    2433,000 ms
+                 ·gc.alloc.rate:          0,525 MB/sec
+                 ·gc.alloc.rate.norm:     59156,596 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,289 ops/s
+                 ·compiler.time.profiled: 39,000 ms
+                 ·compiler.time.total:    2474,000 ms
+                 ·gc.alloc.rate:          0,524 MB/sec
+                 ·gc.alloc.rate.norm:     59190,968 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testSleep":
+  9,309 ±(99.9%) 0,027 ops/s [Average]
+  (min, avg, max) = (9,246, 9,309, 9,406), stdev = 0,036
+  CI (99.9%): [9,282, 9,336] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.profiled":
+  1810,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (7,000, 72,400, 198,000), stdev = 63,613
+  CI (99.9%): [1810,000, 1810,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.total":
+  2553,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (2056,000, 2323,080, 2553,000), stdev = 140,901
+  CI (99.9%): [2553,000, 2553,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate":
+  0,523 ±(99.9%) 0,002 MB/sec [Average]
+  (min, avg, max) = (0,517, 0,523, 0,529), stdev = 0,003
+  CI (99.9%): [0,520, 0,525] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate.norm":
+  58886,569 ±(99.9%) 227,868 B/op [Average]
+  (min, avg, max) = (58261,532, 58886,569, 59471,656), stdev = 304,197
+  CI (99.9%): [58658,701, 59114,437] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.count":
+  ≈ 0 counts
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 84,3%         TIMED_WAITING
+ 15,7%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 84,3% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  7,7%  49,0% <stack is empty, everything is filtered?>
+  7,7%  48,9% sun.nio.ch.KQueue.poll
+  0,2%   1,0% kotlinx.coroutines.internal.ThreadSafeHeap.siftDownFrom
+  0,0%   0,2% jdk.internal.misc.Unsafe.unpark
+  0,0%   0,2% kotlinx.coroutines.EventLoopImplBase.processNextEvent
+  0,0%   0,0% kotlinx.coroutines.EventLoopImplBase$DelayedTask.scheduleTask
+  0,0%   0,0% kotlinx.coroutines.internal.LockFreeLinkedListNode.finishAdd
+  0,0%   0,0% kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker
+  0,0%   0,0% kotlin.coroutines.CoroutineContext$Element$DefaultImpls.fold
+  0,0%   0,0% de.inovex.CoroutineBenchmark$testSleep$1$jobs$1$1.invokeSuspend
+  0,1%   0,4% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testSleep
+# Parameters: (levelOfConcurrency = 1000)
+
+# Run progress: 80,00% complete, ETA 00:17:42
+# Fork: 1 of 5
+# Warmup Iteration   1: 8,953 ops/s
+# Warmup Iteration   2: 9,089 ops/s
+# Warmup Iteration   3: 9,159 ops/s
+# Warmup Iteration   4: 9,153 ops/s
+# Warmup Iteration   5: 9,173 ops/s
+Iteration   1: 9,128 ops/s
+                 ·compiler.time.profiled: 23,000 ms
+                 ·compiler.time.total:    2185,000 ms
+                 ·gc.alloc.rate:          5,115 MB/sec
+                 ·gc.alloc.rate.norm:     587561,652 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,158 ops/s
+                 ·compiler.time.profiled: 13,000 ms
+                 ·compiler.time.total:    2202,000 ms
+                 ·gc.alloc.rate:          5,184 MB/sec
+                 ·gc.alloc.rate.norm:     593641,304 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,179 ops/s
+                 ·compiler.time.profiled: 182,000 ms
+                 ·compiler.time.total:    2385,000 ms
+                 ·gc.alloc.rate:          5,164 MB/sec
+                 ·gc.alloc.rate.norm:     590013,043 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,175 ops/s
+                 ·compiler.time.profiled: 31,000 ms
+                 ·compiler.time.total:    2416,000 ms
+                 ·gc.alloc.rate:          5,157 MB/sec
+                 ·gc.alloc.rate.norm:     589418,696 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,156 ops/s
+                 ·compiler.time.profiled: 12,000 ms
+                 ·compiler.time.total:    2430,000 ms
+                 ·gc.alloc.rate:          5,180 MB/sec
+                 ·gc.alloc.rate.norm:     593340,522 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 82,00% complete, ETA 00:15:55
+# Fork: 2 of 5
+# Warmup Iteration   1: 8,987 ops/s
+# Warmup Iteration   2: 9,162 ops/s
+# Warmup Iteration   3: 9,112 ops/s
+# Warmup Iteration   4: 9,161 ops/s
+# Warmup Iteration   5: 9,097 ops/s
+Iteration   1: 9,197 ops/s
+                 ·compiler.time.profiled: 63,000 ms
+                 ·compiler.time.total:    2079,000 ms
+                 ·gc.alloc.rate:          5,115 MB/sec
+                 ·gc.alloc.rate.norm:     583325,591 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                3,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,149 ops/s
+                 ·compiler.time.profiled: 6,000 ms
+                 ·compiler.time.total:    2091,000 ms
+                 ·gc.alloc.rate:          5,147 MB/sec
+                 ·gc.alloc.rate.norm:     589950,522 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,147 ops/s
+                 ·compiler.time.profiled: 181,000 ms
+                 ·compiler.time.total:    2273,000 ms
+                 ·gc.alloc.rate:          5,133 MB/sec
+                 ·gc.alloc.rate.norm:     588462,000 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,161 ops/s
+                 ·compiler.time.profiled: 19,000 ms
+                 ·compiler.time.total:    2292,000 ms
+                 ·gc.alloc.rate:          5,160 MB/sec
+                 ·gc.alloc.rate.norm:     590666,087 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,189 ops/s
+                 ·compiler.time.profiled: 13,000 ms
+                 ·compiler.time.total:    2306,000 ms
+                 ·gc.alloc.rate:          5,157 MB/sec
+                 ·gc.alloc.rate.norm:     588622,783 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 84,00% complete, ETA 00:14:09
+# Fork: 3 of 5
+# Warmup Iteration   1: 8,942 ops/s
+# Warmup Iteration   2: 9,116 ops/s
+# Warmup Iteration   3: 9,125 ops/s
+# Warmup Iteration   4: 9,135 ops/s
+# Warmup Iteration   5: 9,109 ops/s
+Iteration   1: 9,196 ops/s
+                 ·compiler.time.profiled: 12,000 ms
+                 ·compiler.time.total:    2210,000 ms
+                 ·gc.alloc.rate:          5,200 MB/sec
+                 ·gc.alloc.rate.norm:     593033,548 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,126 ops/s
+                 ·compiler.time.profiled: 8,000 ms
+                 ·compiler.time.total:    2224,000 ms
+                 ·gc.alloc.rate:          5,164 MB/sec
+                 ·gc.alloc.rate.norm:     593469,565 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,162 ops/s
+                 ·compiler.time.profiled: 168,000 ms
+                 ·compiler.time.total:    2393,000 ms
+                 ·gc.alloc.rate:          5,155 MB/sec
+                 ·gc.alloc.rate.norm:     589987,304 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,133 ops/s
+                 ·compiler.time.profiled: 39,000 ms
+                 ·compiler.time.total:    2432,000 ms
+                 ·gc.alloc.rate:          5,153 MB/sec
+                 ·gc.alloc.rate.norm:     591737,826 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,141 ops/s
+                 ·compiler.time.profiled: 33,000 ms
+                 ·compiler.time.total:    2466,000 ms
+                 ·gc.alloc.rate:          5,090 MB/sec
+                 ·gc.alloc.rate.norm:     584045,130 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 86,00% complete, ETA 00:12:23
+# Fork: 4 of 5
+# Warmup Iteration   1: 8,975 ops/s
+# Warmup Iteration   2: 9,132 ops/s
+# Warmup Iteration   3: 9,121 ops/s
+# Warmup Iteration   4: 9,049 ops/s
+# Warmup Iteration   5: 9,216 ops/s
+Iteration   1: 9,149 ops/s
+                 ·compiler.time.profiled: 16,000 ms
+                 ·compiler.time.total:    2220,000 ms
+                 ·gc.alloc.rate:          5,122 MB/sec
+                 ·gc.alloc.rate.norm:     587168,087 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                1,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,154 ops/s
+                 ·compiler.time.profiled: 6,000 ms
+                 ·compiler.time.total:    2232,000 ms
+                 ·gc.alloc.rate:          5,133 MB/sec
+                 ·gc.alloc.rate.norm:     588007,478 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,119 ops/s
+                 ·compiler.time.profiled: 165,000 ms
+                 ·compiler.time.total:    2397,000 ms
+                 ·gc.alloc.rate:          5,090 MB/sec
+                 ·gc.alloc.rate.norm:     585314,522 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                3,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,165 ops/s
+                 ·compiler.time.profiled: 20,000 ms
+                 ·compiler.time.total:    2417,000 ms
+                 ·gc.alloc.rate:          5,136 MB/sec
+                 ·gc.alloc.rate.norm:     587677,391 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,217 ops/s
+                 ·compiler.time.profiled: 42,000 ms
+                 ·compiler.time.total:    2461,000 ms
+                 ·gc.alloc.rate:          5,184 MB/sec
+                 ·gc.alloc.rate.norm:     589790,796 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 88,00% complete, ETA 00:10:37
+# Fork: 5 of 5
+# Warmup Iteration   1: 8,930 ops/s
+# Warmup Iteration   2: 9,089 ops/s
+# Warmup Iteration   3: 9,118 ops/s
+# Warmup Iteration   4: 9,124 ops/s
+# Warmup Iteration   5: 9,129 ops/s
+Iteration   1: 9,112 ops/s
+                 ·compiler.time.profiled: 65,000 ms
+                 ·compiler.time.total:    2200,000 ms
+                 ·gc.alloc.rate:          5,084 MB/sec
+                 ·gc.alloc.rate.norm:     585103,826 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 9,113 ops/s
+                 ·compiler.time.profiled: 26,000 ms
+                 ·compiler.time.total:    2232,000 ms
+                 ·gc.alloc.rate:          5,141 MB/sec
+                 ·gc.alloc.rate.norm:     591584,261 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 9,145 ops/s
+                 ·compiler.time.profiled: 178,000 ms
+                 ·compiler.time.total:    2411,000 ms
+                 ·gc.alloc.rate:          5,129 MB/sec
+                 ·gc.alloc.rate.norm:     588190,870 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 9,140 ops/s
+                 ·compiler.time.profiled: 11,000 ms
+                 ·compiler.time.total:    2422,000 ms
+                 ·gc.alloc.rate:          5,171 MB/sec
+                 ·gc.alloc.rate.norm:     593316,870 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 9,173 ops/s
+                 ·compiler.time.profiled: 22,000 ms
+                 ·compiler.time.total:    2446,000 ms
+                 ·gc.alloc.rate:          5,179 MB/sec
+                 ·gc.alloc.rate.norm:     592119,913 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testSleep":
+  9,155 ±(99.9%) 0,020 ops/s [Average]
+  (min, avg, max) = (9,112, 9,155, 9,217), stdev = 0,027
+  CI (99.9%): [9,135, 9,176] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.profiled":
+  1354,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (6,000, 54,160, 182,000), stdev = 63,510
+  CI (99.9%): [1354,000, 1354,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.total":
+  2466,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (2079,000, 2312,880, 2466,000), stdev = 119,077
+  CI (99.9%): [2466,000, 2466,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate":
+  5,146 ±(99.9%) 0,023 MB/sec [Average]
+  (min, avg, max) = (5,084, 5,146, 5,200), stdev = 0,031
+  CI (99.9%): [5,122, 5,169] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate.norm":
+  589421,984 ±(99.9%) 2247,026 B/op [Average]
+  (min, avg, max) = (583325,591, 589421,984, 593641,304), stdev = 2999,716
+  CI (99.9%): [587174,957, 591669,010] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.count":
+  10,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (≈ 0, 0,400, 1,000), stdev = 0,500
+  CI (99.9%): [10,000, 10,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.time":
+  21,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 0,840, 3,000), stdev = 1,106
+  CI (99.9%): [21,000, 21,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 84,0%         TIMED_WAITING
+ 15,9%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 84,0% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  7,7%  48,4% <stack is empty, everything is filtered?>
+  7,7%  48,4% sun.nio.ch.KQueue.poll
+  0,2%   1,4% kotlinx.coroutines.internal.ThreadSafeHeap.siftDownFrom
+  0,0%   0,2% jdk.internal.misc.Unsafe.unpark
+  0,0%   0,1% kotlinx.coroutines.EventLoopImplBase.processNextEvent
+  0,0%   0,1% kotlinx.coroutines.internal.ThreadSafeHeap.peek
+  0,0%   0,1% kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith
+  0,0%   0,1% kotlinx.coroutines.EventLoopImplBase$DelayedTask.scheduleTask
+  0,0%   0,1% kotlinx.coroutines.Job$DefaultImpls.invokeOnCompletion$default
+  0,0%   0,1% kotlinx.coroutines.internal.DispatchedContinuation.getContext
+  0,1%   0,9% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: de.inovex.CoroutineBenchmark.testSleep
+# Parameters: (levelOfConcurrency = 4000)
+
+# Run progress: 90,00% complete, ETA 00:08:51
+# Fork: 1 of 5
+# Warmup Iteration   1: 8,239 ops/s
+# Warmup Iteration   2: 8,347 ops/s
+# Warmup Iteration   3: 8,288 ops/s
+# Warmup Iteration   4: 8,367 ops/s
+# Warmup Iteration   5: 8,370 ops/s
+Iteration   1: 8,317 ops/s
+                 ·compiler.time.profiled: 75,000 ms
+                 ·compiler.time.total:    1984,000 ms
+                 ·gc.alloc.rate:          17,791 MB/sec
+                 ·gc.alloc.rate.norm:     2243277,238 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                1,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 8,342 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    1994,000 ms
+                 ·gc.alloc.rate:          17,884 MB/sec
+                 ·gc.alloc.rate.norm:     2248263,429 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 8,331 ops/s
+                 ·compiler.time.profiled: 163,000 ms
+                 ·compiler.time.total:    2157,000 ms
+                 ·gc.alloc.rate:          17,775 MB/sec
+                 ·gc.alloc.rate.norm:     2237448,952 B/op
+                 ·gc.count:               2,000 counts
+                 ·gc.time:                3,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 8,319 ops/s
+                 ·compiler.time.profiled: 11,000 ms
+                 ·compiler.time.total:    2169,000 ms
+                 ·gc.alloc.rate:          17,808 MB/sec
+                 ·gc.alloc.rate.norm:     2244776,095 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 8,403 ops/s
+                 ·compiler.time.profiled: 18,000 ms
+                 ·compiler.time.total:    2188,000 ms
+                 ·gc.alloc.rate:          18,074 MB/sec
+                 ·gc.alloc.rate.norm:     2255744,847 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 92,00% complete, ETA 00:07:04
+# Fork: 2 of 5
+# Warmup Iteration   1: 8,168 ops/s
+# Warmup Iteration   2: 8,293 ops/s
+# Warmup Iteration   3: 8,237 ops/s
+# Warmup Iteration   4: 8,243 ops/s
+# Warmup Iteration   5: 8,242 ops/s
+Iteration   1: 8,216 ops/s
+                 ·compiler.time.profiled: 19,000 ms
+                 ·compiler.time.total:    2213,000 ms
+                 ·gc.alloc.rate:          17,594 MB/sec
+                 ·gc.alloc.rate.norm:     2245517,783 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                1,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 8,178 ops/s
+                 ·compiler.time.profiled: 43,000 ms
+                 ·compiler.time.total:    2257,000 ms
+                 ·gc.alloc.rate:          17,477 MB/sec
+                 ·gc.alloc.rate.norm:     2241097,561 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 8,220 ops/s
+                 ·compiler.time.profiled: 169,000 ms
+                 ·compiler.time.total:    2426,000 ms
+                 ·gc.alloc.rate:          17,564 MB/sec
+                 ·gc.alloc.rate.norm:     2240687,133 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                3,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 8,235 ops/s
+                 ·compiler.time.profiled: 16,000 ms
+                 ·compiler.time.total:    2442,000 ms
+                 ·gc.alloc.rate:          17,787 MB/sec
+                 ·gc.alloc.rate.norm:     2264935,614 B/op
+                 ·gc.count:               2,000 counts
+                 ·gc.time:                4,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 8,193 ops/s
+                 ·compiler.time.profiled: 53,000 ms
+                 ·compiler.time.total:    2496,000 ms
+                 ·gc.alloc.rate:          17,528 MB/sec
+                 ·gc.alloc.rate.norm:     2243445,366 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 94,00% complete, ETA 00:05:18
+# Fork: 3 of 5
+# Warmup Iteration   1: 8,243 ops/s
+# Warmup Iteration   2: 8,342 ops/s
+# Warmup Iteration   3: 8,303 ops/s
+# Warmup Iteration   4: 8,261 ops/s
+# Warmup Iteration   5: 8,235 ops/s
+Iteration   1: 8,346 ops/s
+                 ·compiler.time.profiled: 12,000 ms
+                 ·compiler.time.total:    2036,000 ms
+                 ·gc.alloc.rate:          17,977 MB/sec
+                 ·gc.alloc.rate.norm:     2258954,000 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 8,295 ops/s
+                 ·compiler.time.profiled: 50,000 ms
+                 ·compiler.time.total:    2089,000 ms
+                 ·gc.alloc.rate:          17,757 MB/sec
+                 ·gc.alloc.rate.norm:     2244753,349 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                1,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 8,309 ops/s
+                 ·compiler.time.profiled: 143,000 ms
+                 ·compiler.time.total:    2232,000 ms
+                 ·gc.alloc.rate:          17,780 MB/sec
+                 ·gc.alloc.rate.norm:     2243976,667 B/op
+                 ·gc.count:               2,000 counts
+                 ·gc.time:                3,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 8,269 ops/s
+                 ·compiler.time.profiled: 41,000 ms
+                 ·compiler.time.total:    2273,000 ms
+                 ·gc.alloc.rate:          17,675 MB/sec
+                 ·gc.alloc.rate.norm:     2241499,759 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 8,291 ops/s
+                 ·compiler.time.profiled: 64,000 ms
+                 ·compiler.time.total:    2338,000 ms
+                 ·gc.alloc.rate:          17,784 MB/sec
+                 ·gc.alloc.rate.norm:     2249373,880 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 96,00% complete, ETA 00:03:32
+# Fork: 4 of 5
+# Warmup Iteration   1: 8,313 ops/s
+# Warmup Iteration   2: 8,355 ops/s
+# Warmup Iteration   3: 8,455 ops/s
+# Warmup Iteration   4: 8,385 ops/s
+# Warmup Iteration   5: 8,306 ops/s
+Iteration   1: 8,387 ops/s
+                 ·compiler.time.profiled: 15,000 ms
+                 ·compiler.time.total:    2031,000 ms
+                 ·gc.alloc.rate:          18,336 MB/sec
+                 ·gc.alloc.rate.norm:     2292450,286 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                3,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 8,299 ops/s
+                 ·compiler.time.profiled: 9,000 ms
+                 ·compiler.time.total:    2041,000 ms
+                 ·gc.alloc.rate:          18,035 MB/sec
+                 ·gc.alloc.rate.norm:     2278938,381 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 8,241 ops/s
+                 ·compiler.time.profiled: 174,000 ms
+                 ·compiler.time.total:    2215,000 ms
+                 ·gc.alloc.rate:          17,882 MB/sec
+                 ·gc.alloc.rate.norm:     2275419,084 B/op
+                 ·gc.count:               2,000 counts
+                 ·gc.time:                3,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 8,339 ops/s
+                 ·compiler.time.profiled: 75,000 ms
+                 ·compiler.time.total:    2291,000 ms
+                 ·gc.alloc.rate:          18,231 MB/sec
+                 ·gc.alloc.rate.norm:     2292762,286 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 8,336 ops/s
+                 ·compiler.time.profiled: 17,000 ms
+                 ·compiler.time.total:    2308,000 ms
+                 ·gc.alloc.rate:          18,216 MB/sec
+                 ·gc.alloc.rate.norm:     2291740,952 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+# Run progress: 98,00% complete, ETA 00:01:46
+# Fork: 5 of 5
+# Warmup Iteration   1: 8,310 ops/s
+# Warmup Iteration   2: 8,391 ops/s
+# Warmup Iteration   3: 8,336 ops/s
+# Warmup Iteration   4: 8,351 ops/s
+# Warmup Iteration   5: 8,333 ops/s
+Iteration   1: 8,361 ops/s
+                 ·compiler.time.profiled: 31,000 ms
+                 ·compiler.time.total:    2181,000 ms
+                 ·gc.alloc.rate:          18,032 MB/sec
+                 ·gc.alloc.rate.norm:     2261661,238 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                1,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   2: 8,357 ops/s
+                 ·compiler.time.profiled: 13,000 ms
+                 ·compiler.time.total:    2196,000 ms
+                 ·gc.alloc.rate:          18,068 MB/sec
+                 ·gc.alloc.rate.norm:     2267314,476 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   3: 8,328 ops/s
+                 ·compiler.time.profiled: 207,000 ms
+                 ·compiler.time.total:    2403,000 ms
+                 ·gc.alloc.rate:          18,000 MB/sec
+                 ·gc.alloc.rate.norm:     2266658,000 B/op
+                 ·gc.count:               2,000 counts
+                 ·gc.time:                4,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   4: 8,382 ops/s
+                 ·compiler.time.profiled: 26,000 ms
+                 ·compiler.time.total:    2429,000 ms
+                 ·gc.alloc.rate:          18,165 MB/sec
+                 ·gc.alloc.rate.norm:     2272795,810 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+Iteration   5: 8,366 ops/s
+                 ·compiler.time.profiled: 29,000 ms
+                 ·compiler.time.total:    2459,000 ms
+                 ·gc.alloc.rate:          18,123 MB/sec
+                 ·gc.alloc.rate.norm:     2271735,429 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                2,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Result "de.inovex.CoroutineBenchmark.testSleep":
+  8,306 ±(99.9%) 0,047 ops/s [Average]
+  (min, avg, max) = (8,178, 8,306, 8,403), stdev = 0,062
+  CI (99.9%): [8,260, 8,353] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.profiled":
+  1482,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (9,000, 59,280, 207,000), stdev = 61,089
+  CI (99.9%): [1482,000, 1482,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·compiler.time.total":
+  2496,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (1984,000, 2233,920, 2496,000), stdev = 153,255
+  CI (99.9%): [2496,000, 2496,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate":
+  17,894 ±(99.9%) 0,174 MB/sec [Average]
+  (min, avg, max) = (17,477, 17,894, 18,336), stdev = 0,233
+  CI (99.9%): [17,719, 18,068] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.alloc.rate.norm":
+  2259009,105 ±(99.9%) 13213,279 B/op [Average]
+  (min, avg, max) = (2237448,952, 2259009,105, 2292762,286), stdev = 17639,349
+  CI (99.9%): [2245795,826, 2272222,383] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.count":
+  30,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (1,000, 1,200, 2,000), stdev = 0,408
+  CI (99.9%): [30,000, 30,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·gc.time":
+  55,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (1,000, 2,200, 4,000), stdev = 0,816
+  CI (99.9%): [55,000, 55,000] (assumes normal distribution)
+
+Secondary result "de.inovex.CoroutineBenchmark.testSleep:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 82,1%         TIMED_WAITING
+ 17,2%         RUNNABLE
+  0,7%         BLOCKED
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 82,1% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  7,7%  44,6% <stack is empty, everything is filtered?>
+  7,7%  44,6% sun.nio.ch.KQueue.poll
+  0,5%   2,6% jdk.internal.misc.Unsafe.unpark
+  0,2%   1,3% kotlinx.coroutines.internal.ThreadSafeHeap.siftDownFrom
+  0,1%   0,7% kotlinx.coroutines.internal.LockFreeLinkedListNode.removeOrNext
+  0,1%   0,6% kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith
+  0,1%   0,5% kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.findAnyTask
+  0,1%   0,5% kotlinx.coroutines.scheduling.CoroutineScheduler.dispatch
+  0,1%   0,4% kotlinx.coroutines.internal.LockFreeTaskQueueCore.removeFirstOrNull
+  0,1%   0,4% kotlinx.coroutines.internal.ThreadSafeHeap.peek
+  0,6%   3,7% <other>
+
+....[Thread state: BLOCKED].........................................................................
+  0,4%  58,6% kotlinx.coroutines.internal.ThreadSafeHeap.peek
+  0,3%  41,1% kotlinx.coroutines.EventLoopImplBase$DelayedTask.scheduleTask
+  0,0%   0,2% kotlinx.coroutines.EventLoopImplBase.processNextEvent
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: de.inovex.CoroutineBenchmark.testNetworkIO
+# Parameters: (levelOfConcurrency = 1)
+
+# Run progress: 100,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,652 s/op
+Iteration   1: 0,507 s/op
+                 ·compiler.time.profiled: 22,000 ms
+                 ·compiler.time.total:    310,000 ms
+                 ·gc.alloc.rate:          0,033 MB/sec
+                 ·gc.alloc.rate.norm:     17568,000 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.profiled":
+  22,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.total":
+  310,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate":
+  0,033 MB/sec
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm":
+  17568,000 B/op
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.count":
+  ≈ 0 counts
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 62,1%         TIMED_WAITING
+ 25,4%         RUNNABLE
+ 12,5%         WAITING
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 62,1% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+ 12,5%  49,3% sun.nio.ch.KQueue.poll
+ 12,5%  49,3% <stack is empty, everything is filtered?>
+  0,4%   1,4% java.lang.invoke.LambdaForm$MH/0x000000080102e800.invokeExact_MT
+
+....[Thread state: WAITING].........................................................................
+ 12,5% 100,0% jdk.internal.misc.Unsafe.park
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: de.inovex.CoroutineBenchmark.testNetworkIO
+# Parameters: (levelOfConcurrency = 10)
+
+# Run progress: 100,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,662 s/op
+Iteration   1: 0,511 s/op
+                 ·compiler.time.profiled: 29,000 ms
+                 ·compiler.time.total:    352,000 ms
+                 ·gc.alloc.rate:          0,101 MB/sec
+                 ·gc.alloc.rate.norm:     54088,000 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.profiled":
+  29,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.total":
+  352,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate":
+  0,101 MB/sec
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm":
+  54088,000 B/op
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.count":
+  ≈ 0 counts
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 73,1%         TIMED_WAITING
+ 13,5%         RUNNABLE
+ 13,3%         WAITING
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 73,1% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  6,7%  49,3% sun.nio.ch.KQueue.poll
+  6,7%  49,3% <stack is empty, everything is filtered?>
+  0,2%   1,4% java.lang.Thread.currentThread
+
+....[Thread state: WAITING].........................................................................
+ 13,3% 100,0% jdk.internal.misc.Unsafe.park
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: de.inovex.CoroutineBenchmark.testNetworkIO
+# Parameters: (levelOfConcurrency = 100)
+
+# Run progress: 100,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,706 s/op
+Iteration   1: 0,546 s/op
+                 ·compiler.time.profiled: 87,000 ms
+                 ·compiler.time.total:    470,000 ms
+                 ·gc.alloc.rate:          0,930 MB/sec
+                 ·gc.alloc.rate.norm:     533440,000 B/op
+                 ·gc.count:               ≈ 0 counts
+                 ·stack:                  <delayed till summary>
+
+
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.profiled":
+  87,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.total":
+  470,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate":
+  0,930 MB/sec
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm":
+  533440,000 B/op
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.count":
+  ≈ 0 counts
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 73,2%         TIMED_WAITING
+ 14,1%         RUNNABLE
+ 12,8%         WAITING
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 73,2% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  6,7%  47,4% <stack is empty, everything is filtered?>
+  6,5%  46,2% sun.nio.ch.KQueue.poll
+  0,2%   1,3% java.util.stream.AbstractPipeline.evaluate
+  0,2%   1,3% jdk.internal.net.http.ConnectionPool$ExpiryList.add
+  0,2%   1,3% java.lang.invoke.Invokers.checkCustomized
+  0,2%   1,3% jdk.internal.net.http.HttpClientImpl$SelectorManager.run
+  0,2%   1,3% java.nio.ByteBuffer.limit
+
+....[Thread state: WAITING].........................................................................
+ 12,8% 100,0% jdk.internal.misc.Unsafe.park
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: de.inovex.CoroutineBenchmark.testNetworkIO
+# Parameters: (levelOfConcurrency = 1000)
+
+# Run progress: 100,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0,922 s/op
+Iteration   1: 0,615 s/op
+                 ·compiler.time.profiled: 464,000 ms
+                 ·compiler.time.total:    1784,000 ms
+                 ·gc.alloc.rate:          7,639 MB/sec
+                 ·gc.alloc.rate.norm:     4932104,000 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                5,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.profiled":
+  464,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.total":
+  1784,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate":
+  7,639 MB/sec
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm":
+  4932104,000 B/op
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.count":
+  1,000 counts
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.time":
+  5,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 63,2%         TIMED_WAITING
+ 23,8%         WAITING
+ 12,9%         RUNNABLE
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 63,2% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: WAITING].........................................................................
+ 23,8% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  5,8%  44,7% <stack is empty, everything is filtered?>
+  5,4%  41,5% sun.nio.ch.KQueue.poll
+  0,3%   2,1% jdk.internal.net.http.HttpClientImpl$SelectorManager.run
+  0,1%   1,1% jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run
+  0,1%   1,1% java.lang.invoke.Invokers.checkCustomized
+  0,1%   1,1% sun.nio.ch.IOUtil.write1
+  0,1%   1,1% jdk.internal.net.http.Http1Response$$Lambda$253/0x0000000801170ef0.<init>
+  0,1%   1,1% java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1.<init>
+  0,1%   1,1% java.util.concurrent.CompletableFuture.uniComposeStage
+  0,1%   1,1% java.util.concurrent.ForkJoinPool.scan
+  0,6%   4,3% <other>
+
+
+
+# JMH version: 1.36
+# VM version: JDK 19, Java HotSpot(TM) 64-Bit Server VM, 19+36-2238
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: de.inovex.CoroutineBenchmark.testNetworkIO
+# Parameters: (levelOfConcurrency = 4000)
+
+# Run progress: 100,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 1,289 s/op
+Iteration   1: 0,768 s/op
+                 ·compiler.time.profiled: 1423,000 ms
+                 ·compiler.time.total:    4039,000 ms
+                 ·gc.alloc.rate:          104,817 MB/sec
+                 ·gc.alloc.rate.norm:     84460248,000 B/op
+                 ·gc.count:               1,000 counts
+                 ·gc.time:                10,000 ms
+                 ·stack:                  <delayed till summary>
+
+
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.profiled":
+  1423,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·compiler.time.total":
+  4039,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate":
+  104,817 MB/sec
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm":
+  84460248,000 B/op
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.count":
+  1,000 counts
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·gc.time":
+  10,000 ms
+
+Secondary result "de.inovex.CoroutineBenchmark.testNetworkIO:·stack":
+Stack profiler:
+
+....[Thread state distributions]....................................................................
+ 52,9%         TIMED_WAITING
+ 34,1%         WAITING
+ 12,6%         RUNNABLE
+  0,4%         BLOCKED
+
+....[Thread state: TIMED_WAITING]...................................................................
+ 52,9% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: WAITING].........................................................................
+ 34,1% 100,0% jdk.internal.misc.Unsafe.park
+
+....[Thread state: RUNNABLE]........................................................................
+  5,0%  39,7% <stack is empty, everything is filtered?>
+  4,0%  31,7% sun.nio.ch.KQueue.poll
+  0,5%   4,0% jdk.internal.net.http.ConnectionPool$ExpiryList.add
+  0,3%   2,4% jdk.internal.misc.Unsafe.allocateInstance
+  0,2%   1,6% java.util.HashMap.put
+  0,2%   1,6% jdk.internal.net.http.HttpClientImpl$SelectorManager.run
+  0,2%   1,6% jdk.internal.net.http.common.MinimalFuture.<init>
+  0,1%   0,8% java.util.concurrent.CompletableFuture.uniComposeExceptionallyStage
+  0,1%   0,8% sun.nio.ch.KQueueSelectorImpl.wakeup
+  0,1%   0,8% sun.nio.ch.IOUtil.acquireScope
+  1,9%  15,1% <other>
+
+....[Thread state: BLOCKED].........................................................................
+  0,4% 100,0% jdk.internal.net.http.ConnectionPool.purgeExpiredConnectionsAndReturnNextDeadline
+
+
+
+# Run complete. Total time: 01:29:07
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                 (levelOfConcurrency)   Mode  Cnt           Score       Error   Units
+CoroutineBenchmark.testFileIO                                                1  thrpt   25       20252,523 ±    43,921   ops/s
+CoroutineBenchmark.testFileIO:·compiler.time.profiled                        1  thrpt   25         262,000                  ms
+CoroutineBenchmark.testFileIO:·compiler.time.total                           1  thrpt   25        1415,000                  ms
+CoroutineBenchmark.testFileIO:·gc.alloc.rate                                 1  thrpt   25        4863,129 ±    10,561  MB/sec
+CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm                            1  thrpt   25      251800,006 ±     0,003    B/op
+CoroutineBenchmark.testFileIO:·gc.count                                      1  thrpt   25        6416,000              counts
+CoroutineBenchmark.testFileIO:·gc.time                                       1  thrpt   25        1809,000                  ms
+CoroutineBenchmark.testFileIO:·stack                                         1  thrpt                  NaN                 ---
+CoroutineBenchmark.testFileIO                                               10  thrpt   25        4616,848 ±    28,529   ops/s
+CoroutineBenchmark.testFileIO:·compiler.time.profiled                       10  thrpt   25        1177,000                  ms
+CoroutineBenchmark.testFileIO:·compiler.time.total                          10  thrpt   25        2901,000                  ms
+CoroutineBenchmark.testFileIO:·gc.alloc.rate                                10  thrpt   25       11061,640 ±    68,242  MB/sec
+CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm                           10  thrpt   25     2512417,172 ±    61,802    B/op
+CoroutineBenchmark.testFileIO:·gc.count                                     10  thrpt   25        8788,000              counts
+CoroutineBenchmark.testFileIO:·gc.time                                      10  thrpt   25        3606,000                  ms
+CoroutineBenchmark.testFileIO:·stack                                        10  thrpt                  NaN                 ---
+CoroutineBenchmark.testFileIO                                              100  thrpt   25         330,495 ±     8,822   ops/s
+CoroutineBenchmark.testFileIO:·compiler.time.profiled                      100  thrpt   25        1029,000                  ms
+CoroutineBenchmark.testFileIO:·compiler.time.total                         100  thrpt   25        4898,000                  ms
+CoroutineBenchmark.testFileIO:·gc.alloc.rate                               100  thrpt   25        7914,643 ±   211,354  MB/sec
+CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm                          100  thrpt   25    25112591,214 ±   869,774    B/op
+CoroutineBenchmark.testFileIO:·gc.count                                    100  thrpt   25        3359,000              counts
+CoroutineBenchmark.testFileIO:·gc.time                                     100  thrpt   25        5530,000                  ms
+CoroutineBenchmark.testFileIO:·stack                                       100  thrpt                  NaN                 ---
+CoroutineBenchmark.testFileIO                                             1000  thrpt   25          17,028 ±     0,359   ops/s
+CoroutineBenchmark.testFileIO:·compiler.time.profiled                     1000  thrpt   25        1257,000                  ms
+CoroutineBenchmark.testFileIO:·compiler.time.total                        1000  thrpt   25        4804,000                  ms
+CoroutineBenchmark.testFileIO:·gc.alloc.rate                              1000  thrpt   25        4076,295 ±    86,033  MB/sec
+CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm                         1000  thrpt   25   251099435,246 ±  4808,906    B/op
+CoroutineBenchmark.testFileIO:·gc.count                                   1000  thrpt   25        3932,000              counts
+CoroutineBenchmark.testFileIO:·gc.time                                    1000  thrpt   25       62878,000                  ms
+CoroutineBenchmark.testFileIO:·stack                                      1000  thrpt                  NaN                 ---
+CoroutineBenchmark.testFileIO                                             4000  thrpt   25           3,266 ±     0,076   ops/s
+CoroutineBenchmark.testFileIO:·compiler.time.profiled                     4000  thrpt   25        2068,000                  ms
+CoroutineBenchmark.testFileIO:·compiler.time.total                        4000  thrpt   25        5477,000                  ms
+CoroutineBenchmark.testFileIO:·gc.alloc.rate                              4000  thrpt   25        3126,232 ±    73,119  MB/sec
+CoroutineBenchmark.testFileIO:·gc.alloc.rate.norm                         4000  thrpt   25  1004398349,946 ±  9896,905    B/op
+CoroutineBenchmark.testFileIO:·gc.count                                   4000  thrpt   25        3977,000              counts
+CoroutineBenchmark.testFileIO:·gc.time                                    4000  thrpt   25       83056,000                  ms
+CoroutineBenchmark.testFileIO:·stack                                      4000  thrpt                  NaN                 ---
+CoroutineBenchmark.testSleep                                                 1  thrpt   25           9,332 ±     0,027   ops/s
+CoroutineBenchmark.testSleep:·compiler.time.profiled                         1  thrpt   25        1166,000                  ms
+CoroutineBenchmark.testSleep:·compiler.time.total                            1  thrpt   25        1603,000                  ms
+CoroutineBenchmark.testSleep:·gc.alloc.rate                                  1  thrpt   25           0,014 ±     0,001  MB/sec
+CoroutineBenchmark.testSleep:·gc.alloc.rate.norm                             1  thrpt   25        1534,193 ±     6,614    B/op
+CoroutineBenchmark.testSleep:·gc.count                                       1  thrpt   25           5,000              counts
+CoroutineBenchmark.testSleep:·gc.time                                        1  thrpt   25          32,000                  ms
+CoroutineBenchmark.testSleep:·stack                                          1  thrpt                  NaN                 ---
+CoroutineBenchmark.testSleep                                                10  thrpt   25           9,325 ±     0,024   ops/s
+CoroutineBenchmark.testSleep:·compiler.time.profiled                        10  thrpt   25        2102,000                  ms
+CoroutineBenchmark.testSleep:·compiler.time.total                           10  thrpt   25        2437,000                  ms
+CoroutineBenchmark.testSleep:·gc.alloc.rate                                 10  thrpt   25           0,057 ±     0,001  MB/sec
+CoroutineBenchmark.testSleep:·gc.alloc.rate.norm                            10  thrpt   25        6374,575 ±    27,093    B/op
+CoroutineBenchmark.testSleep:·gc.count                                      10  thrpt   25             ≈ 0              counts
+CoroutineBenchmark.testSleep:·stack                                         10  thrpt                  NaN                 ---
+CoroutineBenchmark.testSleep                                               100  thrpt   25           9,309 ±     0,027   ops/s
+CoroutineBenchmark.testSleep:·compiler.time.profiled                       100  thrpt   25        1810,000                  ms
+CoroutineBenchmark.testSleep:·compiler.time.total                          100  thrpt   25        2553,000                  ms
+CoroutineBenchmark.testSleep:·gc.alloc.rate                                100  thrpt   25           0,523 ±     0,002  MB/sec
+CoroutineBenchmark.testSleep:·gc.alloc.rate.norm                           100  thrpt   25       58886,569 ±   227,868    B/op
+CoroutineBenchmark.testSleep:·gc.count                                     100  thrpt   25             ≈ 0              counts
+CoroutineBenchmark.testSleep:·stack                                        100  thrpt                  NaN                 ---
+CoroutineBenchmark.testSleep                                              1000  thrpt   25           9,155 ±     0,020   ops/s
+CoroutineBenchmark.testSleep:·compiler.time.profiled                      1000  thrpt   25        1354,000                  ms
+CoroutineBenchmark.testSleep:·compiler.time.total                         1000  thrpt   25        2466,000                  ms
+CoroutineBenchmark.testSleep:·gc.alloc.rate                               1000  thrpt   25           5,146 ±     0,023  MB/sec
+CoroutineBenchmark.testSleep:·gc.alloc.rate.norm                          1000  thrpt   25      589421,984 ±  2247,026    B/op
+CoroutineBenchmark.testSleep:·gc.count                                    1000  thrpt   25          10,000              counts
+CoroutineBenchmark.testSleep:·gc.time                                     1000  thrpt   25          21,000                  ms
+CoroutineBenchmark.testSleep:·stack                                       1000  thrpt                  NaN                 ---
+CoroutineBenchmark.testSleep                                              4000  thrpt   25           8,306 ±     0,047   ops/s
+CoroutineBenchmark.testSleep:·compiler.time.profiled                      4000  thrpt   25        1482,000                  ms
+CoroutineBenchmark.testSleep:·compiler.time.total                         4000  thrpt   25        2496,000                  ms
+CoroutineBenchmark.testSleep:·gc.alloc.rate                               4000  thrpt   25          17,894 ±     0,174  MB/sec
+CoroutineBenchmark.testSleep:·gc.alloc.rate.norm                          4000  thrpt   25     2259009,105 ± 13213,279    B/op
+CoroutineBenchmark.testSleep:·gc.count                                    4000  thrpt   25          30,000              counts
+CoroutineBenchmark.testSleep:·gc.time                                     4000  thrpt   25          55,000                  ms
+CoroutineBenchmark.testSleep:·stack                                       4000  thrpt                  NaN                 ---
+CoroutineBenchmark.testNetworkIO                                             1     ss                0,507                s/op
+CoroutineBenchmark.testNetworkIO:·compiler.time.profiled                     1     ss               22,000                  ms
+CoroutineBenchmark.testNetworkIO:·compiler.time.total                        1     ss              310,000                  ms
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate                              1     ss                0,033              MB/sec
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm                         1     ss            17568,000                B/op
+CoroutineBenchmark.testNetworkIO:·gc.count                                   1     ss                  ≈ 0              counts
+CoroutineBenchmark.testNetworkIO:·stack                                      1     ss                  NaN                 ---
+CoroutineBenchmark.testNetworkIO                                            10     ss                0,511                s/op
+CoroutineBenchmark.testNetworkIO:·compiler.time.profiled                    10     ss               29,000                  ms
+CoroutineBenchmark.testNetworkIO:·compiler.time.total                       10     ss              352,000                  ms
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate                             10     ss                0,101              MB/sec
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm                        10     ss            54088,000                B/op
+CoroutineBenchmark.testNetworkIO:·gc.count                                  10     ss                  ≈ 0              counts
+CoroutineBenchmark.testNetworkIO:·stack                                     10     ss                  NaN                 ---
+CoroutineBenchmark.testNetworkIO                                           100     ss                0,546                s/op
+CoroutineBenchmark.testNetworkIO:·compiler.time.profiled                   100     ss               87,000                  ms
+CoroutineBenchmark.testNetworkIO:·compiler.time.total                      100     ss              470,000                  ms
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate                            100     ss                0,930              MB/sec
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm                       100     ss           533440,000                B/op
+CoroutineBenchmark.testNetworkIO:·gc.count                                 100     ss                  ≈ 0              counts
+CoroutineBenchmark.testNetworkIO:·stack                                    100     ss                  NaN                 ---
+CoroutineBenchmark.testNetworkIO                                          1000     ss                0,615                s/op
+CoroutineBenchmark.testNetworkIO:·compiler.time.profiled                  1000     ss              464,000                  ms
+CoroutineBenchmark.testNetworkIO:·compiler.time.total                     1000     ss             1784,000                  ms
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate                           1000     ss                7,639              MB/sec
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm                      1000     ss          4932104,000                B/op
+CoroutineBenchmark.testNetworkIO:·gc.count                                1000     ss                1,000              counts
+CoroutineBenchmark.testNetworkIO:·gc.time                                 1000     ss                5,000                  ms
+CoroutineBenchmark.testNetworkIO:·stack                                   1000     ss                  NaN                 ---
+CoroutineBenchmark.testNetworkIO                                          4000     ss                0,768                s/op
+CoroutineBenchmark.testNetworkIO:·compiler.time.profiled                  4000     ss             1423,000                  ms
+CoroutineBenchmark.testNetworkIO:·compiler.time.total                     4000     ss             4039,000                  ms
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate                           4000     ss              104,817              MB/sec
+CoroutineBenchmark.testNetworkIO:·gc.alloc.rate.norm                      4000     ss         84460248,000                B/op
+CoroutineBenchmark.testNetworkIO:·gc.count                                4000     ss                1,000              counts
+CoroutineBenchmark.testNetworkIO:·gc.time                                 4000     ss               10,000                  ms
+CoroutineBenchmark.testNetworkIO:·stack                                   4000     ss                  NaN                 ---
